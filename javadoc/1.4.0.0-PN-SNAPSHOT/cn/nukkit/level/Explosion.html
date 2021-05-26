@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Explosion (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -19,7 +19,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":42,"i1":10,"i2":10};
+var methods = {"i0":42,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"],32:["t6","Deprecated Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -131,12 +131,26 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
 <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
 <tr>
-<th class="colOne" scope="col">Constructor and Description</th>
+<th class="colFirst" scope="col">Modifier</th>
+<th class="colLast" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#Explosion-cn.nukkit.level.Position-double-cn.nukkit.entity.Entity-">Explosion</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;center,
+<td class="colFirst"><code>&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#Explosion-cn.nukkit.level.Position-double-cn.nukkit.block.Block-">Explosion</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;center,
+         double&nbsp;size,
+         <a href="../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&nbsp;what)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#Explosion-cn.nukkit.level.Position-double-cn.nukkit.entity.Entity-">Explosion</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;center,
          double&nbsp;size,
          <a href="../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;what)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected </code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#Explosion-cn.nukkit.level.Position-double-java.lang.Object-">Explosion</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;center,
+         double&nbsp;size,
+         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;what)</code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -167,6 +181,22 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#explodeB--">explodeB</a></span>()</code>&nbsp;</td>
 </tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>double</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#getFireChance--">getFireChance</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#isIncendiary--">isIncendiary</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#setFireChance-double-">setFireChance</a></span>(double&nbsp;fireChance)</code>&nbsp;</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/level/Explosion.html#setIncendiary-boolean-">setIncendiary</a></span>(boolean&nbsp;incendiary)</code>&nbsp;</td>
+</tr>
 </table>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
@@ -192,12 +222,38 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <a name="Explosion-cn.nukkit.level.Position-double-cn.nukkit.entity.Entity-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>Explosion</h4>
 <pre>public&nbsp;Explosion(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;center,
                  double&nbsp;size,
                  <a href="../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;what)</pre>
+</li>
+</ul>
+<a name="Explosion-cn.nukkit.level.Position-double-cn.nukkit.block.Block-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>Explosion</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;Explosion(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;center,
+                                                              double&nbsp;size,
+                                                              <a href="../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&nbsp;what)</pre>
+</li>
+</ul>
+<a name="Explosion-cn.nukkit.level.Position-double-java.lang.Object-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>Explosion</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+protected&nbsp;Explosion(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;center,
+                                                                 double&nbsp;size,
+                                                                 <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;what)</pre>
 </li>
 </ul>
 </li>
@@ -208,6 +264,50 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <!--   -->
 </a>
 <h3>Method Detail</h3>
+<a name="setFireChance-double-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setFireChance</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setFireChance(double&nbsp;fireChance)</pre>
+</li>
+</ul>
+<a name="getFireChance--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getFireChance</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;double&nbsp;getFireChance()</pre>
+</li>
+</ul>
+<a name="isIncendiary--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isIncendiary</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;boolean&nbsp;isIncendiary()</pre>
+</li>
+</ul>
+<a name="setIncendiary-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setIncendiary</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setIncendiary(boolean&nbsp;incendiary)</pre>
+</li>
+</ul>
 <a name="explode--">
 <!--   -->
 </a>
@@ -315,6 +415,6 @@ public&nbsp;boolean&nbsp;explodeB()</pre>
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ChunkUpdater (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../../script.js"></script>
 </head>
@@ -167,6 +167,8 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
      8Sync beehive and bee_nest parallel changes
      9Re-render cobblestone walls to connect to glass, stained glass, and other wall types like border and blackstone wall
      10Re-render snow layers to make them cover grass blocks and fix leaves2 issue: https://github.com/PowerNukkit/PowerNukkit/issues/482
+     11The debug block property was removed from stripped_warped_hyphae, stripped_warped_stem, stripped_crimson_hyphae, and stripped_crimson_stem
+     12Upgraded the block frame data values to match the vanilla data, allowing to place up and down and have map
  </div>
 </td>
 </tr>
@@ -228,6 +230,8 @@ public&nbsp;int&nbsp;getCurrentContentVersion()</pre>
      <dt>8</dt><dd>Sync beehive and bee_nest parallel changes</dd>
      <dt>9</dt><dd>Re-render cobblestone walls to connect to glass, stained glass, and other wall types like border and blackstone wall</dd>
      <dt>10</dt><dd>Re-render snow layers to make them cover grass blocks and fix leaves2 issue: https://github.com/PowerNukkit/PowerNukkit/issues/482</dd>
+     <dt>11</dt><dd>The debug block property was removed from stripped_warped_hyphae, stripped_warped_stem, stripped_crimson_hyphae, and stripped_crimson_stem</dd>
+     <dt>12</dt><dd>Upgraded the block frame data values to match the vanilla data, allowing to place up and down and have map</dd>
  </dl></div>
 </li>
 </ul>
@@ -312,6 +316,6 @@ public&nbsp;void&nbsp;backwardCompatibilityUpdate(<a href="../../../../../cn/nuk
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

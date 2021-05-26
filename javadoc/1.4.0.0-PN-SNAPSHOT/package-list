@@ -44,6 +44,7 @@ cn.nukkit.inventory.transaction.data
 cn.nukkit.item
 cn.nukkit.item.enchantment
 cn.nukkit.item.enchantment.bow
+cn.nukkit.item.enchantment.crossbow
 cn.nukkit.item.enchantment.damage
 cn.nukkit.item.enchantment.loot
 cn.nukkit.item.enchantment.protection
@@ -94,6 +95,7 @@ cn.nukkit.level.particle
 cn.nukkit.level.util
 cn.nukkit.math
 cn.nukkit.metadata
+cn.nukkit.metrics
 cn.nukkit.nbt
 cn.nukkit.nbt.stream
 cn.nukkit.nbt.tag

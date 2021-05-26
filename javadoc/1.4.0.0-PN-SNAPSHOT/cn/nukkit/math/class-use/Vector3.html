@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Uses of Class cn.nukkit.math.Vector3 (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -249,12 +249,31 @@
 <td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#sleeping">sleeping</a></span></code>&nbsp;</td>
 </tr>
 <tr class="altColor">
+<td class="colFirst"><code>protected <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></code></td>
+<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#spawnBlockPosition">spawnBlockPosition</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#speed">speed</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>protected <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#teleportPosition">teleportPosition</a></span></code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../cn/nukkit/package-summary.html">cn.nukkit</a> that return <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></code></td>
+<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#getSpawnBlock--">getSpawnBlock</a></span>()</code>
+<div class="block">The block that holds the player respawn position.</div>
+</td>
 </tr>
 </tbody>
 </table>
@@ -319,6 +338,12 @@
 <td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#setSpawn-cn.nukkit.math.Vector3-">setSpawn</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#setSpawnBlock-cn.nukkit.math.Vector3-">setSpawnBlock</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;spawnBlock)</code>
+<div class="block">Sets the position of the block that holds the player respawn position.</div>
+</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#sleepOn-cn.nukkit.math.Vector3-">sleepOn</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
 </tr>
@@ -1498,671 +1523,675 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockRoots.html" title="class in cn.nukkit.block">BlockRoots</a></span></code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockRespawnAnchor.html" title="class in cn.nukkit.block">BlockRespawnAnchor</a></span></code>&nbsp;</td>
 </tr>
 <tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockRoots.html" title="class in cn.nukkit.block">BlockRoots</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockRootsCrimson.html" title="class in cn.nukkit.block">BlockRootsCrimson</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockRootsWarped.html" title="class in cn.nukkit.block">BlockRootsWarped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSand.html" title="class in cn.nukkit.block">BlockSand</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSandstone.html" title="class in cn.nukkit.block">BlockSandstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSapling.html" title="class in cn.nukkit.block">BlockSapling</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockScaffolding.html" title="class in cn.nukkit.block">BlockScaffolding</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSeagrass.html" title="class in cn.nukkit.block">BlockSeagrass</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSeaLantern.html" title="class in cn.nukkit.block">BlockSeaLantern</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSeaPickle.html" title="class in cn.nukkit.block">BlockSeaPickle</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockShroomlight.html" title="class in cn.nukkit.block">BlockShroomlight</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockShulkerBox.html" title="class in cn.nukkit.block">BlockShulkerBox</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSignPost.html" title="class in cn.nukkit.block">BlockSignPost</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSkull.html" title="class in cn.nukkit.block">BlockSkull</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlab.html" title="class in cn.nukkit.block">BlockSlab</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabBlackstone.html" title="class in cn.nukkit.block">BlockSlabBlackstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabBlackstonePolished.html" title="class in cn.nukkit.block">BlockSlabBlackstonePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabBrickBlackstonePolished.html" title="class in cn.nukkit.block">BlockSlabBrickBlackstonePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabCrimson.html" title="class in cn.nukkit.block">BlockSlabCrimson</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabRedSandstone.html" title="class in cn.nukkit.block">BlockSlabRedSandstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabStone.html" title="class in cn.nukkit.block">BlockSlabStone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabStone3.html" title="class in cn.nukkit.block">BlockSlabStone3</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabStone4.html" title="class in cn.nukkit.block">BlockSlabStone4</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabWarped.html" title="class in cn.nukkit.block">BlockSlabWarped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlabWood.html" title="class in cn.nukkit.block">BlockSlabWood</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSlime.html" title="class in cn.nukkit.block">BlockSlime</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSmithingTable.html" title="class in cn.nukkit.block">BlockSmithingTable</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSmoker.html" title="class in cn.nukkit.block">BlockSmoker</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSmokerBurning.html" title="class in cn.nukkit.block">BlockSmokerBurning</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSmoothStone.html" title="class in cn.nukkit.block">BlockSmoothStone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSnow.html" title="class in cn.nukkit.block">BlockSnow</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSnowLayer.html" title="class in cn.nukkit.block">BlockSnowLayer</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSolid.html" title="class in cn.nukkit.block">BlockSolid</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSolidMeta.html" title="class in cn.nukkit.block">BlockSolidMeta</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSoulLantern.html" title="class in cn.nukkit.block">BlockSoulLantern</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSoulSand.html" title="class in cn.nukkit.block">BlockSoulSand</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSoulSoil.html" title="class in cn.nukkit.block">BlockSoulSoil</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSoulTorch.html" title="class in cn.nukkit.block">BlockSoulTorch</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSponge.html" title="class in cn.nukkit.block">BlockSponge</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSpruceSignPost.html" title="class in cn.nukkit.block">BlockSpruceSignPost</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSpruceWallSign.html" title="class in cn.nukkit.block">BlockSpruceWallSign</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairs.html" title="class in cn.nukkit.block">BlockStairs</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsAcacia.html" title="class in cn.nukkit.block">BlockStairsAcacia</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsAndesite.html" title="class in cn.nukkit.block">BlockStairsAndesite</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsAndesitePolished.html" title="class in cn.nukkit.block">BlockStairsAndesitePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsBirch.html" title="class in cn.nukkit.block">BlockStairsBirch</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsBlackstone.html" title="class in cn.nukkit.block">BlockStairsBlackstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsBlackstonePolished.html" title="class in cn.nukkit.block">BlockStairsBlackstonePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsBrick.html" title="class in cn.nukkit.block">BlockStairsBrick</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsBrickBlackstonePolished.html" title="class in cn.nukkit.block">BlockStairsBrickBlackstonePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsCobblestone.html" title="class in cn.nukkit.block">BlockStairsCobblestone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsCrimson.html" title="class in cn.nukkit.block">BlockStairsCrimson</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsDarkOak.html" title="class in cn.nukkit.block">BlockStairsDarkOak</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsDarkPrismarine.html" title="class in cn.nukkit.block">BlockStairsDarkPrismarine</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsDiorite.html" title="class in cn.nukkit.block">BlockStairsDiorite</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsDioritePolished.html" title="class in cn.nukkit.block">BlockStairsDioritePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsEndBrick.html" title="class in cn.nukkit.block">BlockStairsEndBrick</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsGranite.html" title="class in cn.nukkit.block">BlockStairsGranite</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsGranitePolished.html" title="class in cn.nukkit.block">BlockStairsGranitePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsJungle.html" title="class in cn.nukkit.block">BlockStairsJungle</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsMossyCobblestone.html" title="class in cn.nukkit.block">BlockStairsMossyCobblestone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsMossyStoneBrick.html" title="class in cn.nukkit.block">BlockStairsMossyStoneBrick</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsNetherBrick.html" title="class in cn.nukkit.block">BlockStairsNetherBrick</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsPrismarine.html" title="class in cn.nukkit.block">BlockStairsPrismarine</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsPrismarineBrick.html" title="class in cn.nukkit.block">BlockStairsPrismarineBrick</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsPurpur.html" title="class in cn.nukkit.block">BlockStairsPurpur</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsQuartz.html" title="class in cn.nukkit.block">BlockStairsQuartz</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsRedNetherBrick.html" title="class in cn.nukkit.block">BlockStairsRedNetherBrick</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsRedSandstone.html" title="class in cn.nukkit.block">BlockStairsRedSandstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsSandstone.html" title="class in cn.nukkit.block">BlockStairsSandstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsSmoothQuartz.html" title="class in cn.nukkit.block">BlockStairsSmoothQuartz</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsSmoothRedSandstone.html" title="class in cn.nukkit.block">BlockStairsSmoothRedSandstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsSmoothSandstone.html" title="class in cn.nukkit.block">BlockStairsSmoothSandstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsSpruce.html" title="class in cn.nukkit.block">BlockStairsSpruce</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsStone.html" title="class in cn.nukkit.block">BlockStairsStone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsStoneBrick.html" title="class in cn.nukkit.block">BlockStairsStoneBrick</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsWarped.html" title="class in cn.nukkit.block">BlockStairsWarped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStairsWood.html" title="class in cn.nukkit.block">BlockStairsWood</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStem.html" title="class in cn.nukkit.block">BlockStem</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStemCrimson.html" title="class in cn.nukkit.block">BlockStemCrimson</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStemMelon.html" title="class in cn.nukkit.block">BlockStemMelon</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStemPumpkin.html" title="class in cn.nukkit.block">BlockStemPumpkin</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStemStripped.html" title="class in cn.nukkit.block">BlockStemStripped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStemStrippedCrimson.html" title="class in cn.nukkit.block">BlockStemStrippedCrimson</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStemStrippedWarped.html" title="class in cn.nukkit.block">BlockStemStrippedWarped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStemWarped.html" title="class in cn.nukkit.block">BlockStemWarped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStone.html" title="class in cn.nukkit.block">BlockStone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStonecutter.html" title="class in cn.nukkit.block">BlockStonecutter</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStonecutterBlock.html" title="class in cn.nukkit.block">BlockStonecutterBlock</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStructure.html" title="class in cn.nukkit.block">BlockStructure</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockStructureVoid.html" title="class in cn.nukkit.block">BlockStructureVoid</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSugarcane.html" title="class in cn.nukkit.block">BlockSugarcane</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSweetBerryBush.html" title="class in cn.nukkit.block">BlockSweetBerryBush</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTallGrass.html" title="class in cn.nukkit.block">BlockTallGrass</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTarget.html" title="class in cn.nukkit.block">BlockTarget</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracotta.html" title="class in cn.nukkit.block">BlockTerracotta</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazed.html" title="class in cn.nukkit.block">BlockTerracottaGlazed</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedBlack.html" title="class in cn.nukkit.block">BlockTerracottaGlazedBlack</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedBlue.html" title="class in cn.nukkit.block">BlockTerracottaGlazedBlue</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedBrown.html" title="class in cn.nukkit.block">BlockTerracottaGlazedBrown</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedCyan.html" title="class in cn.nukkit.block">BlockTerracottaGlazedCyan</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedGray.html" title="class in cn.nukkit.block">BlockTerracottaGlazedGray</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedGreen.html" title="class in cn.nukkit.block">BlockTerracottaGlazedGreen</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedLightBlue.html" title="class in cn.nukkit.block">BlockTerracottaGlazedLightBlue</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedLime.html" title="class in cn.nukkit.block">BlockTerracottaGlazedLime</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedMagenta.html" title="class in cn.nukkit.block">BlockTerracottaGlazedMagenta</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedOrange.html" title="class in cn.nukkit.block">BlockTerracottaGlazedOrange</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedPink.html" title="class in cn.nukkit.block">BlockTerracottaGlazedPink</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedPurple.html" title="class in cn.nukkit.block">BlockTerracottaGlazedPurple</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedRed.html" title="class in cn.nukkit.block">BlockTerracottaGlazedRed</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedSilver.html" title="class in cn.nukkit.block">BlockTerracottaGlazedSilver</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedWhite.html" title="class in cn.nukkit.block">BlockTerracottaGlazedWhite</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaGlazedYellow.html" title="class in cn.nukkit.block">BlockTerracottaGlazedYellow</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTerracottaStained.html" title="class in cn.nukkit.block">BlockTerracottaStained</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockThin.html" title="class in cn.nukkit.block">BlockThin</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTNT.html" title="class in cn.nukkit.block">BlockTNT</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTorch.html" title="class in cn.nukkit.block">BlockTorch</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTransparent.html" title="class in cn.nukkit.block">BlockTransparent</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTransparentMeta.html" title="class in cn.nukkit.block">BlockTransparentMeta</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoor.html" title="class in cn.nukkit.block">BlockTrapdoor</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorAcacia.html" title="class in cn.nukkit.block">BlockTrapdoorAcacia</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorBirch.html" title="class in cn.nukkit.block">BlockTrapdoorBirch</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorCrimson.html" title="class in cn.nukkit.block">BlockTrapdoorCrimson</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorDarkOak.html" title="class in cn.nukkit.block">BlockTrapdoorDarkOak</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorIron.html" title="class in cn.nukkit.block">BlockTrapdoorIron</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorJungle.html" title="class in cn.nukkit.block">BlockTrapdoorJungle</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorSpruce.html" title="class in cn.nukkit.block">BlockTrapdoorSpruce</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrapdoorWarped.html" title="class in cn.nukkit.block">BlockTrapdoorWarped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTrappedChest.html" title="class in cn.nukkit.block">BlockTrappedChest</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTripWire.html" title="class in cn.nukkit.block">BlockTripWire</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTripWireHook.html" title="class in cn.nukkit.block">BlockTripWireHook</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTurtleEgg.html" title="class in cn.nukkit.block">BlockTurtleEgg</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockUndyedShulkerBox.html" title="class in cn.nukkit.block">BlockUndyedShulkerBox</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockUnknown.html" title="class in cn.nukkit.block">BlockUnknown</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockVine.html" title="class in cn.nukkit.block">BlockVine</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockVinesNether.html" title="class in cn.nukkit.block">BlockVinesNether</a></span></code>
 <div class="block">Implements the main logic of all nether vines.</div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockVinesTwisting.html" title="class in cn.nukkit.block">BlockVinesTwisting</a></span></code>
 <div class="block">Properties and behaviour definitions of the <a href="../../../../cn/nukkit/block/BlockID.html#TWISTING_VINES"><code>BlockID.TWISTING_VINES</code></a> block.</div>
 </td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockVinesWeeping.html" title="class in cn.nukkit.block">BlockVinesWeeping</a></span></code>
 <div class="block">Properties and behaviour definitions of the <a href="../../../../cn/nukkit/block/BlockID.html#WEEPING_VINES"><code>BlockID.WEEPING_VINES</code></a> block.</div>
 </td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWall.html" title="class in cn.nukkit.block">BlockWall</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWallBanner.html" title="class in cn.nukkit.block">BlockWallBanner</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWallBase.html" title="class in cn.nukkit.block">BlockWallBase</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWallBlackstone.html" title="class in cn.nukkit.block">BlockWallBlackstone</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWallBlackstonePolished.html" title="class in cn.nukkit.block">BlockWallBlackstonePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWallBrickBlackstonePolished.html" title="class in cn.nukkit.block">BlockWallBrickBlackstonePolished</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWallSign.html" title="class in cn.nukkit.block">BlockWallSign</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWarpedSignPost.html" title="class in cn.nukkit.block">BlockWarpedSignPost</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWarpedWallSign.html" title="class in cn.nukkit.block">BlockWarpedWallSign</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWarpedWartBlock.html" title="class in cn.nukkit.block">BlockWarpedWartBlock</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWater.html" title="class in cn.nukkit.block">BlockWater</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWaterLily.html" title="class in cn.nukkit.block">BlockWaterLily</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWaterStill.html" title="class in cn.nukkit.block">BlockWaterStill</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWeightedPressurePlateHeavy.html" title="class in cn.nukkit.block">BlockWeightedPressurePlateHeavy</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWeightedPressurePlateLight.html" title="class in cn.nukkit.block">BlockWeightedPressurePlateLight</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWheat.html" title="class in cn.nukkit.block">BlockWheat</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWitherRose.html" title="class in cn.nukkit.block">BlockWitherRose</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWood.html" title="class in cn.nukkit.block">BlockWood</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWood2.html" title="class in cn.nukkit.block">BlockWood2</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodBark.html" title="class in cn.nukkit.block">BlockWoodBark</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodStripped.html" title="class in cn.nukkit.block">BlockWoodStripped</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodStrippedAcacia.html" title="class in cn.nukkit.block">BlockWoodStrippedAcacia</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodStrippedBirch.html" title="class in cn.nukkit.block">BlockWoodStrippedBirch</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodStrippedDarkOak.html" title="class in cn.nukkit.block">BlockWoodStrippedDarkOak</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodStrippedJungle.html" title="class in cn.nukkit.block">BlockWoodStrippedJungle</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodStrippedOak.html" title="class in cn.nukkit.block">BlockWoodStrippedOak</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWoodStrippedSpruce.html" title="class in cn.nukkit.block">BlockWoodStrippedSpruce</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockWool.html" title="class in cn.nukkit.block">BlockWool</a></span></code>&nbsp;</td>
 </tr>
@@ -2268,6 +2297,24 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">BlockAllow.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockAllow.html#isBreakable-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-boolean-">isBreakable</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
+           int&nbsp;layer,
+           <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face,
+           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+           <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+           boolean&nbsp;setBlockDestroy)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">BlockBorder.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockBorder.html#isBreakable-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-boolean-">isBreakable</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
+           int&nbsp;layer,
+           <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face,
+           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+           <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+           boolean&nbsp;setBlockDestroy)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">BlockDeny.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockDeny.html#isBreakable-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-boolean-">isBreakable</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
            int&nbsp;layer,
            <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face,
@@ -2277,28 +2324,17 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockAllow.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockAllow.html#isBreakable-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-boolean-">isBreakable</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
-           int&nbsp;layer,
-           <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face,
-           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
-           <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-           boolean&nbsp;setBlockDestroy)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">BlockSapling.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSapling.html#isSameType-cn.nukkit.math.Vector3-int-">isSameType</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
+          int&nbsp;type)</code>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockBorder.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockBorder.html#isBreakable-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-boolean-">isBreakable</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
-           int&nbsp;layer,
-           <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face,
-           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
-           <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-           boolean&nbsp;setBlockDestroy)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">BlockSapling.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSapling.html#isSameType-cn.nukkit.math.Vector3-cn.nukkit.blockproperty.value.WoodType-">isSameType</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
+          <a href="../../../../cn/nukkit/blockproperty/value/WoodType.html" title="enum in cn.nukkit.blockproperty.value">WoodType</a>&nbsp;type)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockSapling.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockSapling.html#isSameType-cn.nukkit.math.Vector3-int-">isSameType</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
-          int&nbsp;type)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">Block.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/Block.html#mustDrop-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-">mustDrop</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
         int&nbsp;layer,
@@ -2306,7 +2342,7 @@
         <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
         <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">BlockBeehive.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockBeehive.html#mustDrop-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-">mustDrop</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
         int&nbsp;layer,
@@ -2314,7 +2350,7 @@
         <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
         <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">Block.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/Block.html#mustSilkTouch-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-">mustSilkTouch</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
              int&nbsp;layer,
@@ -2322,13 +2358,31 @@
              <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
              <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">BlockBeehive.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockBeehive.html#mustSilkTouch-cn.nukkit.math.Vector3-int-cn.nukkit.math.BlockFace-cn.nukkit.item.Item-cn.nukkit.Player-">mustSilkTouch</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vector,
              int&nbsp;layer,
              <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face,
              <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
              <a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">BlockTarget.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTarget.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
+               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
+               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">BlockCampfire.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockCampfire.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
+               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
+               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">BlockTNT.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTNT.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
+               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
+               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
@@ -2343,24 +2397,6 @@
                <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockTarget.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTarget.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
-               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
-               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockCampfire.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockCampfire.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
-               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
-               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockTNT.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTNT.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
-               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
-               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><span class="typeNameLabel">BlockLiquid.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockLiquid.html#triggerLavaMixEffects-cn.nukkit.math.Vector3-">triggerLavaMixEffects</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
 </tr>
@@ -2683,23 +2719,29 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">Entity.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/Entity.html#setMotion-cn.nukkit.math.Vector3-">setMotion</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EntityCreature.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/EntityCreature.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">Entity.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/Entity.html#setPosition-cn.nukkit.math.Vector3-">setPosition</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">Entity.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/Entity.html#setMotion-cn.nukkit.math.Vector3-">setMotion</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">Entity.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/Entity.html#setPosition-cn.nukkit.math.Vector3-">setPosition</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">Entity.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/Entity.html#setPositionAndRotation-cn.nukkit.math.Vector3-double-double-">setPositionAndRotation</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
                       double&nbsp;yaw,
                       double&nbsp;pitch)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">Entity.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/Entity.html#teleport-cn.nukkit.math.Vector3-">teleport</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">Entity.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/Entity.html#teleport-cn.nukkit.math.Vector3-cn.nukkit.event.player.PlayerTeleportEvent.TeleportCause-">teleport</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
         <a href="../../../../cn/nukkit/event/player/PlayerTeleportEvent.TeleportCause.html" title="enum in cn.nukkit.event.player">PlayerTeleportEvent.TeleportCause</a>&nbsp;cause)</code>&nbsp;</td>
@@ -2869,7 +2911,19 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EntityMinecartTNT.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityMinecartTNT.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+<td class="colLast"><span class="typeNameLabel">EntityMinecartHopper.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityMinecartHopper.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">EntityMinecartChest.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityMinecartChest.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">EntityArmorStand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityArmorStand.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
 </tr>
@@ -2881,25 +2935,13 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EntityMinecartHopper.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityMinecartHopper.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+<td class="colLast"><span class="typeNameLabel">EntityMinecartTNT.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityMinecartTNT.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EntityArmorStand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityArmorStand.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">EntityBoat.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityBoat.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EntityMinecartChest.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/item/EntityMinecartChest.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
 </tr>
@@ -2979,114 +3021,103 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityMagmaCube.html" title="class in cn.nukkit.entity.mob">EntityMagmaCube</a></span></code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityIronGolem.html" title="class in cn.nukkit.entity.mob">EntityIronGolem</a></span></code>&nbsp;</td>
 </tr>
 <tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityMagmaCube.html" title="class in cn.nukkit.entity.mob">EntityMagmaCube</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityMob.html" title="class in cn.nukkit.entity.mob">EntityMob</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityPhantom.html" title="class in cn.nukkit.entity.mob">EntityPhantom</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityPiglin.html" title="class in cn.nukkit.entity.mob">EntityPiglin</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityPiglinBrute.html" title="class in cn.nukkit.entity.mob">EntityPiglinBrute</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityPillager.html" title="class in cn.nukkit.entity.mob">EntityPillager</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityRavager.html" title="class in cn.nukkit.entity.mob">EntityRavager</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityShulker.html" title="class in cn.nukkit.entity.mob">EntityShulker</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntitySilverfish.html" title="class in cn.nukkit.entity.mob">EntitySilverfish</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntitySkeleton.html" title="class in cn.nukkit.entity.mob">EntitySkeleton</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntitySlime.html" title="class in cn.nukkit.entity.mob">EntitySlime</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntitySnowGolem.html" title="class in cn.nukkit.entity.mob">EntitySnowGolem</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntitySpider.html" title="class in cn.nukkit.entity.mob">EntitySpider</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityStray.html" title="class in cn.nukkit.entity.mob">EntityStray</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityVex.html" title="class in cn.nukkit.entity.mob">EntityVex</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityVindicator.html" title="class in cn.nukkit.entity.mob">EntityVindicator</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityWitch.html" title="class in cn.nukkit.entity.mob">EntityWitch</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityWither.html" title="class in cn.nukkit.entity.mob">EntityWither</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityWitherSkeleton.html" title="class in cn.nukkit.entity.mob">EntityWitherSkeleton</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityZoglin.html" title="class in cn.nukkit.entity.mob">EntityZoglin</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityZombie.html" title="class in cn.nukkit.entity.mob">EntityZombie</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityZombiePigman.html" title="class in cn.nukkit.entity.mob">EntityZombiePigman</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityZombieVillager.html" title="class in cn.nukkit.entity.mob">EntityZombieVillager</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>class&nbsp;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityZombieVillagerV1.html" title="class in cn.nukkit.entity.mob">EntityZombieVillagerV1</a></span></code>&nbsp;</td>
-</tr>
-</tbody>
-</table>
-<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
-<caption><span>Methods in <a href="../../../../cn/nukkit/entity/mob/package-summary.html">cn.nukkit.entity.mob</a> with parameters of type <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></span><span class="tabEnd">&nbsp;</span></caption>
-<tr>
-<th class="colFirst" scope="col">Modifier and Type</th>
-<th class="colLast" scope="col">Method and Description</th>
-</tr>
-<tbody>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EntityMob.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/mob/EntityMob.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -3257,17 +3288,11 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EntityAnimal.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/passive/EntityAnimal.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">EntitySheep.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/passive/EntitySheep.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">EntityTurtle.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/passive/EntityTurtle.html#setHomePos-cn.nukkit.math.Vector3-">setHomePos</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
 </tr>
@@ -3312,6 +3337,19 @@
 </tbody>
 </table>
 <table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../cn/nukkit/entity/projectile/package-summary.html">cn.nukkit.entity.projectile</a> that return <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></code></td>
+<td class="colLast"><span class="typeNameLabel">EntityThrownTrident.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/projectile/EntityThrownTrident.html#getCollisionPos--">getCollisionPos</a></span>()</code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
 <caption><span>Methods in <a href="../../../../cn/nukkit/entity/projectile/package-summary.html">cn.nukkit.entity.projectile</a> with parameters of type <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a></span><span class="tabEnd">&nbsp;</span></caption>
 <tr>
 <th class="colFirst" scope="col">Modifier and Type</th>
@@ -3320,14 +3358,23 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>protected void</code></td>
-<td class="colLast"><span class="typeNameLabel">EntityProjectile.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/projectile/EntityProjectile.html#onCollideWithBlock-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onCollideWithBlock</a></span>(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
+<td class="colLast"><span class="typeNameLabel">EntityThrownTrident.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/projectile/EntityThrownTrident.html#onCollideWithBlock-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onCollideWithBlock</a></span>(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
                   <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><code>protected void</code></td>
+<td class="colLast"><span class="typeNameLabel">EntityProjectile.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/projectile/EntityProjectile.html#onCollideWithBlock-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onCollideWithBlock</a></span>(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
+                  <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code>protected boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">EntityProjectile.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/projectile/EntityProjectile.html#onCollideWithBlock-cn.nukkit.level.Position-cn.nukkit.math.Vector3-cn.nukkit.block.Block-">onCollideWithBlock</a></span>(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
                   <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion,
                   <a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&nbsp;collisionBlock)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><span class="typeNameLabel">EntityThrownTrident.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/entity/projectile/EntityThrownTrident.html#setCollisionPos-cn.nukkit.math.Vector3-">setCollisionPos</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;collisionPos)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -3554,54 +3601,12 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ItemAppleGoldEnchanted.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemAppleGoldEnchanted.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ItemEdible.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemEdible.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ItemHoneyBottle.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemHoneyBottle.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">ItemFishingRod.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemFishingRod.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ItemFirework.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemFirework.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ItemArmor.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemArmor.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">Item.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/Item.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>
-<div class="block">Called when a player uses the item on air, for example throwing a projectile.</div>
-</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">ItemTrident.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemTrident.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ItemBucket.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemBucket.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ProjectileItem.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ProjectileItem.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
@@ -3611,8 +3616,20 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ItemAppleGold.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemAppleGold.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+<td class="colLast"><span class="typeNameLabel">ItemBucket.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemBucket.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ItemArmor.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemArmor.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">Item.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/Item.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>
+<div class="block">Called when a player uses the item on air, for example throwing a projectile.</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
@@ -3621,7 +3638,37 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ItemFirework.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemFirework.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ProjectileItem.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ProjectileItem.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ItemAppleGold.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemAppleGold.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">ItemBow.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemBow.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ItemEdible.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemEdible.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ItemAppleGoldEnchanted.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemAppleGoldEnchanted.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+          <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ItemHoneyBottle.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/item/ItemHoneyBottle.html#onClickAir-cn.nukkit.Player-cn.nukkit.math.Vector3-">onClickAir</a></span>(<a href="../../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;directionVector)</code>&nbsp;</td>
 </tr>
 </tbody>
@@ -3695,12 +3742,12 @@
 </tr>
 <tbody>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#add-cn.nukkit.math.Vector3-">add</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;x)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/level/Location.html" title="class in cn.nukkit.level">Location</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Location.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Location.html#add-cn.nukkit.math.Vector3-">add</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;x)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
+<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#add-cn.nukkit.math.Vector3-">add</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;x)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
@@ -3947,21 +3994,21 @@
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>static <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#fromObject-cn.nukkit.math.Vector3-">fromObject</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../cn/nukkit/level/Location.html" title="class in cn.nukkit.level">Location</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Location.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Location.html#fromObject-cn.nukkit.math.Vector3-">fromObject</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#fromObject-cn.nukkit.math.Vector3-cn.nukkit.level.Level-">fromObject</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
+<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#fromObject-cn.nukkit.math.Vector3-">fromObject</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="../../../../cn/nukkit/level/Location.html" title="class in cn.nukkit.level">Location</a></code></td>
+<td class="colLast"><span class="typeNameLabel">Location.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Location.html#fromObject-cn.nukkit.math.Vector3-cn.nukkit.level.Level-">fromObject</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
           <a href="../../../../cn/nukkit/level/Level.html" title="class in cn.nukkit.level">Level</a>&nbsp;level)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>static <a href="../../../../cn/nukkit/level/Location.html" title="class in cn.nukkit.level">Location</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Location.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Location.html#fromObject-cn.nukkit.math.Vector3-cn.nukkit.level.Level-">fromObject</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
+<td class="colFirst"><code>static <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
+<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#fromObject-cn.nukkit.math.Vector3-cn.nukkit.level.Level-">fromObject</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
           <a href="../../../../cn/nukkit/level/Level.html" title="class in cn.nukkit.level">Level</a>&nbsp;level)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
@@ -4164,12 +4211,12 @@
 <td class="colLast"><span class="typeNameLabel">Level.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Level.html#setSpawnLocation-cn.nukkit.math.Vector3-">setSpawnLocation</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#subtract-cn.nukkit.math.Vector3-">subtract</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;x)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/level/Location.html" title="class in cn.nukkit.level">Location</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Location.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Location.html#subtract-cn.nukkit.math.Vector3-">subtract</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;x)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
+<td class="colLast"><span class="typeNameLabel">Position.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Position.html#subtract-cn.nukkit.math.Vector3-">subtract</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;x)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
@@ -4182,7 +4229,9 @@
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><span class="typeNameLabel">Level.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/Level.html#updateAroundRedstone-cn.nukkit.math.Vector3-cn.nukkit.math.BlockFace-">updateAroundRedstone</a></span>(<a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;pos,
-                    <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face)</code>&nbsp;</td>
+                    <a href="../../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&nbsp;face)</code>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
@@ -4484,15 +4533,15 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ObjectDarkOakTree.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/generator/object/tree/ObjectDarkOakTree.html#generate-cn.nukkit.level.ChunkManager-cn.nukkit.math.NukkitRandom-cn.nukkit.math.Vector3-">generate</a></span>(<a href="../../../../cn/nukkit/level/ChunkManager.html" title="interface in cn.nukkit.level">ChunkManager</a>&nbsp;level,
-        <a href="../../../../cn/nukkit/math/NukkitRandom.html" title="class in cn.nukkit.math">NukkitRandom</a>&nbsp;rand,
-        <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;position)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">NewJungleTree.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/generator/object/tree/NewJungleTree.html#generate-cn.nukkit.level.ChunkManager-cn.nukkit.math.NukkitRandom-cn.nukkit.math.Vector3-">generate</a></span>(<a href="../../../../cn/nukkit/level/ChunkManager.html" title="interface in cn.nukkit.level">ChunkManager</a>&nbsp;worldIn,
         <a href="../../../../cn/nukkit/math/NukkitRandom.html" title="class in cn.nukkit.math">NukkitRandom</a>&nbsp;rand,
         <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;vectorPosition)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ObjectSavannaTree.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/generator/object/tree/ObjectSavannaTree.html#generate-cn.nukkit.level.ChunkManager-cn.nukkit.math.NukkitRandom-cn.nukkit.math.Vector3-">generate</a></span>(<a href="../../../../cn/nukkit/level/ChunkManager.html" title="interface in cn.nukkit.level">ChunkManager</a>&nbsp;level,
+        <a href="../../../../cn/nukkit/math/NukkitRandom.html" title="class in cn.nukkit.math">NukkitRandom</a>&nbsp;rand,
+        <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;position)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
@@ -4508,7 +4557,7 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ObjectSavannaTree.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/generator/object/tree/ObjectSavannaTree.html#generate-cn.nukkit.level.ChunkManager-cn.nukkit.math.NukkitRandom-cn.nukkit.math.Vector3-">generate</a></span>(<a href="../../../../cn/nukkit/level/ChunkManager.html" title="interface in cn.nukkit.level">ChunkManager</a>&nbsp;level,
+<td class="colLast"><span class="typeNameLabel">ObjectDarkOakTree.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/level/generator/object/tree/ObjectDarkOakTree.html#generate-cn.nukkit.level.ChunkManager-cn.nukkit.math.NukkitRandom-cn.nukkit.math.Vector3-">generate</a></span>(<a href="../../../../cn/nukkit/level/ChunkManager.html" title="interface in cn.nukkit.level">ChunkManager</a>&nbsp;level,
         <a href="../../../../cn/nukkit/math/NukkitRandom.html" title="class in cn.nukkit.math">NukkitRandom</a>&nbsp;rand,
         <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;position)</code>&nbsp;</td>
 </tr>
@@ -5562,6 +5611,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

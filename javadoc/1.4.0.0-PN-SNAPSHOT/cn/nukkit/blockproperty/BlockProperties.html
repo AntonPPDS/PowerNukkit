@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>BlockProperties (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -19,7 +19,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":10,"i36":10,"i37":10,"i38":10,"i39":10,"i40":10,"i41":10,"i42":10,"i43":10,"i44":10,"i45":10,"i46":10,"i47":10,"i48":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":10,"i36":10,"i37":10,"i38":10,"i39":10,"i40":10,"i41":10,"i42":10,"i43":10,"i44":10,"i45":10,"i46":10,"i47":10,"i48":10,"i49":10,"i50":10,"i51":10,"i52":10,"i53":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -152,6 +152,10 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <th class="colOne" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#BlockProperties-cn.nukkit.blockproperty.BlockProperties-cn.nukkit.blockproperty.BlockProperty...-">BlockProperties</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperties.html" title="class in cn.nukkit.blockproperty">BlockProperties</a>&nbsp;itemBlockProperties,
+               <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;...&nbsp;properties)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#BlockProperties-cn.nukkit.blockproperty.BlockProperty...-">BlockProperties</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;...&nbsp;properties)</code>&nbsp;</td>
 </tr>
 </table>
@@ -171,246 +175,272 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#contains-java.lang.String-">contains</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#contains-cn.nukkit.blockproperty.BlockProperty-">contains</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;&nbsp;property)</code>&nbsp;</td>
 </tr>
 <tr id="i1" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#contains-java.lang.String-">contains</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
+</tr>
+<tr id="i2" class="altColor">
 <td class="colFirst"><code><a href="../../../cn/nukkit/blockstate/MutableBlockState.html" title="class in cn.nukkit.blockstate">MutableBlockState</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#createMutableState-int-">createMutableState</a></span>(int&nbsp;blockId)</code>&nbsp;</td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#forEach-java.util.function.Consumer-">forEach</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html?is-external=true" title="class or interface in java.util.function">Consumer</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;&gt;&nbsp;consumer)</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#forEach-java.util.function.ObjIntConsumer-">forEach</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/ObjIntConsumer.html?is-external=true" title="class or interface in java.util.function">ObjIntConsumer</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;&gt;&nbsp;consumer)</code>&nbsp;</td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html?is-external=true" title="class or interface in java.util">Collection</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperties.RegisteredBlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperties.RegisteredBlockProperty</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getAllProperties--">getAllProperties</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getBitSize--">getBitSize</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i6" class="altColor">
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getBlockProperty-java.lang.String-">getBlockProperty</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>&lt;T extends <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;&gt;<br>T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getBlockProperty-java.lang.String-java.lang.Class-">getBlockProperty</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                 <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;T&gt;&nbsp;tClass)</code>&nbsp;</td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getBooleanValue-java.math.BigInteger-java.lang.String-">getBooleanValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i10" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getBooleanValue-int-java.lang.String-">getBooleanValue</a></span>(int&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i10" class="altColor">
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getBooleanValue-long-java.lang.String-">getBooleanValue</a></span>(long&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i11" class="rowColor">
+<tr id="i12" class="altColor">
 <td class="colFirst"><code>&lt;T&gt;&nbsp;T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getCheckedValue-java.math.BigInteger-java.lang.String-java.lang.Class-">getCheckedValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;T&gt;&nbsp;tClass)</code>&nbsp;</td>
 </tr>
-<tr id="i12" class="altColor">
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code>&lt;T&gt;&nbsp;T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getCheckedValue-int-java.lang.String-java.lang.Class-">getCheckedValue</a></span>(int&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;T&gt;&nbsp;tClass)</code>&nbsp;</td>
 </tr>
-<tr id="i13" class="rowColor">
+<tr id="i14" class="altColor">
 <td class="colFirst"><code>&lt;T&gt;&nbsp;T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getCheckedValue-long-java.lang.String-java.lang.Class-">getCheckedValue</a></span>(long&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;T&gt;&nbsp;tClass)</code>&nbsp;</td>
 </tr>
-<tr id="i14" class="altColor">
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getIntValue-java.math.BigInteger-java.lang.String-">getIntValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i15" class="rowColor">
+<tr id="i16" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getIntValue-int-java.lang.String-">getIntValue</a></span>(int&nbsp;currentMeta,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i16" class="altColor">
+<tr id="i17" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getIntValue-long-java.lang.String-">getIntValue</a></span>(long&nbsp;currentMeta,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i17" class="rowColor">
+<tr id="i18" class="altColor">
+<td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/BlockProperties.html" title="class in cn.nukkit.blockproperty">BlockProperties</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getItemBlockProperties--">getItemBlockProperties</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i19" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getItemPropertyNames--">getItemPropertyNames</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i18" class="altColor">
+<tr id="i20" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getNames--">getNames</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i19" class="rowColor">
+<tr id="i21" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getOffset-java.lang.String-">getOffset</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i20" class="altColor">
+<tr id="i22" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getPersistenceValue-java.math.BigInteger-java.lang.String-">getPersistenceValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
                    <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i21" class="rowColor">
+<tr id="i23" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getPersistenceValue-int-java.lang.String-">getPersistenceValue</a></span>(int&nbsp;currentMeta,
                    <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i22" class="altColor">
+<tr id="i24" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getPersistenceValue-long-java.lang.String-">getPersistenceValue</a></span>(long&nbsp;currentMeta,
                    <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i23" class="rowColor">
+<tr id="i25" class="rowColor">
 <td class="colFirst"><code>&lt;T&gt;&nbsp;T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getUncheckedValue-java.math.BigInteger-java.lang.String-">getUncheckedValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
                  <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i24" class="altColor">
+<tr id="i26" class="altColor">
 <td class="colFirst"><code>&lt;T&gt;&nbsp;T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getUncheckedValue-int-java.lang.String-">getUncheckedValue</a></span>(int&nbsp;currentMeta,
                  <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i25" class="rowColor">
+<tr id="i27" class="rowColor">
 <td class="colFirst"><code>&lt;T&gt;&nbsp;T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getUncheckedValue-long-java.lang.String-">getUncheckedValue</a></span>(long&nbsp;currentMeta,
                  <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i26" class="altColor">
+<tr id="i28" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getValue-java.math.BigInteger-java.lang.String-">getValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i27" class="rowColor">
+<tr id="i29" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getValue-int-java.lang.String-">getValue</a></span>(int&nbsp;currentMeta,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i28" class="altColor">
+<tr id="i30" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#getValue-long-java.lang.String-">getValue</a></span>(long&nbsp;currentMeta,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i29" class="rowColor">
+<tr id="i31" class="rowColor">
 <td class="colFirst"><code>&lt;T extends <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&gt;<br>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#isDefaultBooleanValue-cn.nukkit.blockproperty.BlockProperty-boolean-">isDefaultBooleanValue</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;T&gt;&nbsp;property,
                      boolean&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i30" class="altColor">
+<tr id="i32" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#isDefaultBooleanValue-java.lang.String-boolean-">isDefaultBooleanValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                      boolean&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i31" class="rowColor">
+<tr id="i33" class="rowColor">
 <td class="colFirst"><code>&lt;T extends <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&gt;<br>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#isDefaultIntValue-cn.nukkit.blockproperty.BlockProperty-int-">isDefaultIntValue</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;T&gt;&nbsp;property,
                  int&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i32" class="altColor">
+<tr id="i34" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#isDefaultIntValue-java.lang.String-int-">isDefaultIntValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                  int&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i33" class="rowColor">
+<tr id="i35" class="rowColor">
 <td class="colFirst"><code>&lt;T extends <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&gt;<br>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#isDefaultValue-cn.nukkit.blockproperty.BlockProperty-T-">isDefaultValue</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;T&gt;&nbsp;property,
               T&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i34" class="altColor">
+<tr id="i36" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#isDefaultValue-java.lang.String-java.io.Serializable-">isDefaultValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
               <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i35" class="rowColor">
+<tr id="i37" class="rowColor">
 <td class="colFirst"><code>&lt;R&gt;&nbsp;R</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#reduce-R-cn.nukkit.utils.functional.TriFunction-">reduce</a></span>(R&nbsp;identity,
       <a href="../../../cn/nukkit/utils/functional/TriFunction.html" title="interface in cn.nukkit.utils.functional">TriFunction</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;,<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>,R,R&gt;&nbsp;accumulator)</code>&nbsp;</td>
 </tr>
-<tr id="i36" class="altColor">
+<tr id="i38" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#reduceInt-int-cn.nukkit.utils.functional.ToIntTriFunctionTwoInts-">reduceInt</a></span>(int&nbsp;identity,
          <a href="../../../cn/nukkit/utils/functional/ToIntTriFunctionTwoInts.html" title="interface in cn.nukkit.utils.functional">ToIntTriFunctionTwoInts</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;&gt;&nbsp;accumulator)</code>&nbsp;</td>
 </tr>
-<tr id="i37" class="rowColor">
+<tr id="i39" class="rowColor">
 <td class="colFirst"><code>long</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#reduceLong-long-cn.nukkit.utils.functional.ToLongTriFunctionOneIntOneLong-">reduceLong</a></span>(long&nbsp;identity,
           <a href="../../../cn/nukkit/utils/functional/ToLongTriFunctionOneIntOneLong.html" title="interface in cn.nukkit.utils.functional">ToLongTriFunctionOneIntOneLong</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;&gt;&nbsp;accumulator)</code>&nbsp;</td>
 </tr>
-<tr id="i38" class="altColor">
+<tr id="i40" class="altColor">
 <td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/BlockProperties.RegisteredBlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperties.RegisteredBlockProperty</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#requireRegisteredProperty-java.lang.String-">requireRegisteredProperty</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</code>&nbsp;</td>
 </tr>
-<tr id="i39" class="rowColor">
+<tr id="i41" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setBooleanValue-java.math.BigInteger-java.lang.String-boolean-">setBooleanValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                boolean&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i40" class="altColor">
+<tr id="i42" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setBooleanValue-int-java.lang.String-boolean-">setBooleanValue</a></span>(int&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                boolean&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i41" class="rowColor">
+<tr id="i43" class="rowColor">
 <td class="colFirst"><code>long</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setBooleanValue-long-java.lang.String-boolean-">setBooleanValue</a></span>(long&nbsp;currentMeta,
                <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
                boolean&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i42" class="altColor">
+<tr id="i44" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setIntValue-java.math.BigInteger-java.lang.String-int-">setIntValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
            int&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i43" class="rowColor">
+<tr id="i45" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setIntValue-int-java.lang.String-int-">setIntValue</a></span>(int&nbsp;currentMeta,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
            int&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i44" class="altColor">
+<tr id="i46" class="altColor">
 <td class="colFirst"><code>long</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setIntValue-long-java.lang.String-int-">setIntValue</a></span>(long&nbsp;currentMeta,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
            int&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i45" class="rowColor">
+<tr id="i47" class="rowColor">
+<td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setPersistenceValue-java.math.BigInteger-java.lang.String-java.lang.String-">setPersistenceValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
+                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
+                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</code>&nbsp;</td>
+</tr>
+<tr id="i48" class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setPersistenceValue-int-java.lang.String-java.lang.String-">setPersistenceValue</a></span>(int&nbsp;currentMeta,
+                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
+                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</code>&nbsp;</td>
+</tr>
+<tr id="i49" class="rowColor">
+<td class="colFirst"><code>long</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setPersistenceValue-long-java.lang.String-java.lang.String-">setPersistenceValue</a></span>(long&nbsp;currentMeta,
+                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
+                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</code>&nbsp;</td>
+</tr>
+<tr id="i50" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setValue-java.math.BigInteger-java.lang.String-java.io.Serializable-">setValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i46" class="altColor">
+<tr id="i51" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setValue-int-java.lang.String-java.io.Serializable-">setValue</a></span>(int&nbsp;currentMeta,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i47" class="rowColor">
+<tr id="i52" class="altColor">
 <td class="colFirst"><code>long</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#setValue-long-java.lang.String-java.io.Serializable-">setValue</a></span>(long&nbsp;currentMeta,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
         <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i48" class="altColor">
+<tr id="i53" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperties.html#toString--">toString</a></span>()</code>&nbsp;</td>
 </tr>
@@ -439,12 +469,29 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <a name="BlockProperties-cn.nukkit.blockproperty.BlockProperty...-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>BlockProperties</h4>
 <pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
  <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0")
 public&nbsp;BlockProperties(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;...&nbsp;properties)</pre>
+<dl>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html?is-external=true" title="class or interface in java.lang">IllegalArgumentException</a></code> - If there are validation failures</dd>
+</dl>
+</li>
+</ul>
+<a name="BlockProperties-cn.nukkit.blockproperty.BlockProperties-cn.nukkit.blockproperty.BlockProperty...-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>BlockProperties</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0")
+public&nbsp;BlockProperties(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nullable.html?is-external=true" title="class or interface in javax.annotation">@Nullable</a>
+                                                                 <a href="../../../cn/nukkit/blockproperty/BlockProperties.html" title="class in cn.nukkit.blockproperty">BlockProperties</a>&nbsp;itemBlockProperties,
+                                                                 <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;...&nbsp;properties)</pre>
 <dl>
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html?is-external=true" title="class or interface in java.lang">IllegalArgumentException</a></code> - If there are validation failures</dd>
@@ -459,6 +506,18 @@ public&nbsp;BlockProperties(<a href="../../../cn/nukkit/blockproperty/BlockPrope
 <!--   -->
 </a>
 <h3>Method Detail</h3>
+<a name="getItemBlockProperties--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getItemBlockProperties</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+ <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+public&nbsp;<a href="../../../cn/nukkit/blockproperty/BlockProperties.html" title="class in cn.nukkit.blockproperty">BlockProperties</a>&nbsp;getItemBlockProperties()</pre>
+</li>
+</ul>
 <a name="createMutableState-int-">
 <!--   -->
 </a>
@@ -480,6 +539,17 @@ public&nbsp;<a href="../../../cn/nukkit/blockstate/MutableBlockState.html" title
 <pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
  <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
 public&nbsp;boolean&nbsp;contains(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName)</pre>
+</li>
+</ul>
+<a name="contains-cn.nukkit.blockproperty.BlockProperty-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>contains</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;boolean&nbsp;contains(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;?&gt;&nbsp;property)</pre>
 </li>
 </ul>
 <a name="getBlockProperty-java.lang.String-">
@@ -714,6 +784,45 @@ public&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInte
 <dd><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/NoSuchElementException.html?is-external=true" title="class or interface in java.util">NoSuchElementException</a></code> - If the property is not registered</dd>
 <dd><code><a href="../../../cn/nukkit/blockproperty/exception/InvalidBlockPropertyValueException.html" title="class in cn.nukkit.blockproperty.exception">InvalidBlockPropertyValueException</a></code> - If the new value is not accepted by the property</dd>
 </dl>
+</li>
+</ul>
+<a name="setPersistenceValue-int-java.lang.String-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setPersistenceValue</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;int&nbsp;setPersistenceValue(int&nbsp;currentMeta,
+                                                                            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
+                                                                            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</pre>
+</li>
+</ul>
+<a name="setPersistenceValue-long-java.lang.String-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setPersistenceValue</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;long&nbsp;setPersistenceValue(long&nbsp;currentMeta,
+                                                                             <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
+                                                                             <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</pre>
+</li>
+</ul>
+<a name="setPersistenceValue-java.math.BigInteger-java.lang.String-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setPersistenceValue</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;setPersistenceValue(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
+                                                                                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;propertyName,
+                                                                                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</pre>
 </li>
 </ul>
 <a name="setValue-java.math.BigInteger-java.lang.String-java.io.Serializable-">
@@ -1281,6 +1390,6 @@ public&nbsp;&lt;T extends <a href="https://docs.oracle.com/javase/8/docs/api/jav
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

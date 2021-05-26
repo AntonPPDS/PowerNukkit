@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>PlayerUIInventory (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -19,7 +19,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -200,26 +200,34 @@ extends <a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class i
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/PlayerUIInventory.html#onClose-cn.nukkit.Player-">onClose</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</code>&nbsp;</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/PlayerUIInventory.html#onOpen-cn.nukkit.Player-">onOpen</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</code>&nbsp;</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/PlayerUIInventory.html#onSlotChange-int-cn.nukkit.item.Item-boolean-">onSlotChange</a></span>(int&nbsp;index,
             <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;before,
             boolean&nbsp;send)</code>&nbsp;</td>
 </tr>
-<tr id="i6" class="altColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/PlayerUIInventory.html#onSlotChangeBase-int-cn.nukkit.item.Item-boolean-">onSlotChangeBase</a></span>(int&nbsp;index,
                 <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;before,
                 boolean&nbsp;send)</code>&nbsp;</td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/PlayerUIInventory.html#sendContents-cn.nukkit.Player...-">sendContents</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>...&nbsp;target)</code>&nbsp;</td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i10" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/PlayerUIInventory.html#sendSlot-int-cn.nukkit.Player...-">sendSlot</a></span>(int&nbsp;index,
         <a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>...&nbsp;target)</code>&nbsp;</td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/PlayerUIInventory.html#setSize-int-">setSize</a></span>(int&nbsp;size)</code>&nbsp;</td>
 </tr>
@@ -229,7 +237,7 @@ extends <a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class i
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class in cn.nukkit.inventory">BaseInventory</a></h3>
-<code><a href="../../../cn/nukkit/inventory/BaseInventory.html#addItem-cn.nukkit.item.Item...-">addItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#addListener-cn.nukkit.inventory.InventoryListener-">addListener</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#all-cn.nukkit.item.Item-">all</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#canAddItem-cn.nukkit.item.Item-">canAddItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#clear-int-boolean-">clear</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#clearAll--">clearAll</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#close-cn.nukkit.Player-">close</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#contains-cn.nukkit.item.Item-">contains</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#decreaseCount-int-">decreaseCount</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#first-cn.nukkit.item.Item-boolean-">first</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#firstEmpty-cn.nukkit.item.Item-">firstEmpty</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getContents--">getContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getFreeSpace-cn.nukkit.item.Item-">getFreeSpace</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getItem-int-">getItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getMaxStackSize--">getMaxStackSize</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getName--">getName</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getTitle--">getTitle</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getType--">getType</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getViewers--">getViewers</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#isEmpty--">isEmpty</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#isFull--">isFull</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#onClose-cn.nukkit.Player-">onClose</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#onOpen-cn.nukkit.Player-">onOpen</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#open-cn.nukkit.Player-">open</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#remove-cn.nukkit.item.Item-">remove</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#removeItem-cn.nukkit.item.Item...-">removeItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#removeListener-cn.nukkit.inventory.InventoryListener-">removeListener</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendContents-java.util.Collection-">sendContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendContents-cn.nukkit.Player-">sendContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendSlot-int-java.util.Collection-">sendSlot</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendSlot-int-cn.nukkit.Player-">sendSlot</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setContents-java.util.Map-">setContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setItem-int-cn.nukkit.item.Item-boolean-">setItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setMaxStackSize-int-">setMaxStackSize</a></code></li>
+<code><a href="../../../cn/nukkit/inventory/BaseInventory.html#addItem-cn.nukkit.item.Item...-">addItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#addListener-cn.nukkit.inventory.InventoryListener-">addListener</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#all-cn.nukkit.item.Item-">all</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#canAddItem-cn.nukkit.item.Item-">canAddItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#clear-int-boolean-">clear</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#clearAll--">clearAll</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#close-cn.nukkit.Player-">close</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#contains-cn.nukkit.item.Item-">contains</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#decreaseCount-int-">decreaseCount</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#first-cn.nukkit.item.Item-boolean-">first</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#firstEmpty-cn.nukkit.item.Item-">firstEmpty</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getContents--">getContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getFreeSpace-cn.nukkit.item.Item-">getFreeSpace</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getItem-int-">getItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getMaxStackSize--">getMaxStackSize</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getName--">getName</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getTitle--">getTitle</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getType--">getType</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getViewers--">getViewers</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#isEmpty--">isEmpty</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#isFull--">isFull</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#open-cn.nukkit.Player-">open</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#remove-cn.nukkit.item.Item-">remove</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#removeItem-cn.nukkit.item.Item...-">removeItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#removeListener-cn.nukkit.inventory.InventoryListener-">removeListener</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendContents-java.util.Collection-">sendContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendContents-cn.nukkit.Player-">sendContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendSlot-int-java.util.Collection-">sendSlot</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendSlot-int-cn.nukkit.Player-">sendSlot</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setContents-java.util.Map-">setContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setItem-int-cn.nukkit.item.Item-boolean-">setItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setMaxStackSize-int-">setMaxStackSize</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
@@ -301,6 +309,36 @@ extends <a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class i
 <li class="blockList">
 <h4>getBigCraftingGrid</h4>
 <pre>public&nbsp;<a href="../../../cn/nukkit/inventory/BigCraftingGrid.html" title="class in cn.nukkit.inventory">BigCraftingGrid</a>&nbsp;getBigCraftingGrid()</pre>
+</li>
+</ul>
+<a name="onOpen-cn.nukkit.Player-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>onOpen</h4>
+<pre>public&nbsp;void&nbsp;onOpen(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/Inventory.html#onOpen-cn.nukkit.Player-">onOpen</a></code>&nbsp;in interface&nbsp;<code><a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></code></dd>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/BaseInventory.html#onOpen-cn.nukkit.Player-">onOpen</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class in cn.nukkit.inventory">BaseInventory</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="onClose-cn.nukkit.Player-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>onClose</h4>
+<pre>public&nbsp;void&nbsp;onClose(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/Inventory.html#onClose-cn.nukkit.Player-">onClose</a></code>&nbsp;in interface&nbsp;<code><a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></code></dd>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/BaseInventory.html#onClose-cn.nukkit.Player-">onClose</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class in cn.nukkit.inventory">BaseInventory</a></code></dd>
+</dl>
 </li>
 </ul>
 <a name="setSize-int-">
@@ -474,6 +512,6 @@ extends <a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class i
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>UnsignedIntBlockProperty (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -19,7 +19,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -186,54 +186,66 @@ extends <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="cla
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>int</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getDefaultIntValue--">getDefaultIntValue</a></span>()</code>&nbsp;</td>
+<td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html" title="class in cn.nukkit.blockproperty">UnsignedIntBlockProperty</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#copy--">copy</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getDefaultValue--">getDefaultValue</a></span>()</code>&nbsp;</td>
+<td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html" title="class in cn.nukkit.blockproperty">UnsignedIntBlockProperty</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#exportingToItems-boolean-">exportingToItems</a></span>(boolean&nbsp;exportedToItem)</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>int</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getIntValueForMeta-int-">getIntValueForMeta</a></span>(int&nbsp;meta)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getDefaultIntValue--">getDefaultIntValue</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i3" class="rowColor">
-<td class="colFirst"><code>long</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getMaxValue--">getMaxValue</a></span>()</code>&nbsp;</td>
+<td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getDefaultValue--">getDefaultValue</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>int</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getMetaForValue-java.lang.Integer-">getMetaForValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&nbsp;value)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getIntValueForMeta-int-">getIntValueForMeta</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>long</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getMinValue--">getMinValue</a></span>()</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getMaxValue--">getMaxValue</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i6" class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getMetaForPersistenceValue-java.lang.String-">getMetaForPersistenceValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</code>&nbsp;</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getMetaForValue-java.lang.Integer-">getMetaForValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&nbsp;value)</code>&nbsp;</td>
+</tr>
+<tr id="i8" class="altColor">
+<td class="colFirst"><code>long</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getMinValue--">getMinValue</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getPersistenceValueForMeta-int-">getPersistenceValueForMeta</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i10" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getValueClass--">getValueClass</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#getValueForMeta-int-">getValueForMeta</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i12" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#isDefaultIntValue-int-">isDefaultIntValue</a></span>(int&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i10" class="altColor">
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#isDefaultValue-java.lang.Integer-">isDefaultValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i11" class="rowColor">
+<tr id="i14" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#validateDirectly-java.lang.Integer-">validateDirectly</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i12" class="altColor">
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html#validateMetaDirectly-int-">validateMetaDirectly</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
@@ -332,6 +344,36 @@ public&nbsp;UnsignedIntBlockProperty(<a href="https://docs.oracle.com/javase/8/d
 <!--   -->
 </a>
 <h3>Method Detail</h3>
+<a name="copy--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>copy</h4>
+<pre><a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+ <a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public&nbsp;<a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html" title="class in cn.nukkit.blockproperty">UnsignedIntBlockProperty</a>&nbsp;copy()</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#copy--">copy</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="exportingToItems-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>exportingToItems</h4>
+<pre><a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+ <a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public&nbsp;<a href="../../../cn/nukkit/blockproperty/UnsignedIntBlockProperty.html" title="class in cn.nukkit.blockproperty">UnsignedIntBlockProperty</a>&nbsp;exportingToItems(boolean&nbsp;exportedToItem)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#exportingToItems-boolean-">exportingToItems</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
 <a name="getMetaForValue-java.lang.Integer-">
 <!--   -->
 </a>
@@ -383,6 +425,22 @@ public&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getPersistenceValueForMeta-int-">getPersistenceValueForMeta</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+<a name="getMetaForPersistenceValue-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMetaForPersistenceValue</h4>
+<pre><a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+ <a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public&nbsp;int&nbsp;getMetaForPersistenceValue(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                                                                   <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getMetaForPersistenceValue-java.lang.String-">getMetaForPersistenceValue</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html?is-external=true" title="class or interface in java.lang">Integer</a>&gt;</code></dd>
 </dl>
 </li>
 </ul>
@@ -580,6 +638,6 @@ public&nbsp;int&nbsp;getDefaultIntValue()</pre>
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

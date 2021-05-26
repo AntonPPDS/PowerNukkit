@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RedstoneComponent (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
+<meta name="date" content="2021-05-26">
+<link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
+<script type="text/javascript" src="../../../script.js"></script>
+</head>
+<body>
+<script type="text/javascript"><!--
+    try {
+        if (location.href.indexOf('is-external=true') == -1) {
+            parent.document.title="RedstoneComponent (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)";
+        }
+    }
+    catch(err) {
+    }
+//-->
+var methods = {"i0":18,"i1":18,"i2":17,"i3":17,"i4":18,"i5":18,"i6":17,"i7":17};
+var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],2:["t2","Instance Methods"],16:["t5","Default Methods"]};
+var altColor = "altColor";
+var rowColor = "rowColor";
+var tableTab = "tableTab";
+var activeTableTab = "activeTableTab";
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar.top">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.top.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/RedstoneComponent.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../index-all.html">Index</a></li>
+<li><a href="../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../cn/nukkit/utils/Rail.Orientation.State.html" title="enum in cn.nukkit.utils"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../cn/nukkit/utils/SerializedImage.html" title="class in cn.nukkit.utils"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../index.html?cn/nukkit/utils/RedstoneComponent.html" target="_top">Frames</a></li>
+<li><a href="RedstoneComponent.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div>
+<a name="skip.navbar.top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">cn.nukkit.utils</div>
+<h2 title="Interface RedstoneComponent" class="title">Interface RedstoneComponent</h2>
+</div>
+<div class="contentContainer">
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Known Implementing Classes:</dt>
+<dd><a href="../../../cn/nukkit/block/BlockBell.html" title="class in cn.nukkit.block">BlockBell</a>, <a href="../../../cn/nukkit/block/BlockButton.html" title="class in cn.nukkit.block">BlockButton</a>, <a href="../../../cn/nukkit/block/BlockButtonAcacia.html" title="class in cn.nukkit.block">BlockButtonAcacia</a>, <a href="../../../cn/nukkit/block/BlockButtonBirch.html" title="class in cn.nukkit.block">BlockButtonBirch</a>, <a href="../../../cn/nukkit/block/BlockButtonBlackstonePolished.html" title="class in cn.nukkit.block">BlockButtonBlackstonePolished</a>, <a href="../../../cn/nukkit/block/BlockButtonCrimson.html" title="class in cn.nukkit.block">BlockButtonCrimson</a>, <a href="../../../cn/nukkit/block/BlockButtonDarkOak.html" title="class in cn.nukkit.block">BlockButtonDarkOak</a>, <a href="../../../cn/nukkit/block/BlockButtonJungle.html" title="class in cn.nukkit.block">BlockButtonJungle</a>, <a href="../../../cn/nukkit/block/BlockButtonSpruce.html" title="class in cn.nukkit.block">BlockButtonSpruce</a>, <a href="../../../cn/nukkit/block/BlockButtonStone.html" title="class in cn.nukkit.block">BlockButtonStone</a>, <a href="../../../cn/nukkit/block/BlockButtonWarped.html" title="class in cn.nukkit.block">BlockButtonWarped</a>, <a href="../../../cn/nukkit/block/BlockButtonWooden.html" title="class in cn.nukkit.block">BlockButtonWooden</a>, <a href="../../../cn/nukkit/block/BlockDaylightDetector.html" title="class in cn.nukkit.block">BlockDaylightDetector</a>, <a href="../../../cn/nukkit/block/BlockDaylightDetectorInverted.html" title="class in cn.nukkit.block">BlockDaylightDetectorInverted</a>, <a href="../../../cn/nukkit/block/BlockDispenser.html" title="class in cn.nukkit.block">BlockDispenser</a>, <a href="../../../cn/nukkit/block/BlockDoor.html" title="class in cn.nukkit.block">BlockDoor</a>, <a href="../../../cn/nukkit/block/BlockDoorAcacia.html" title="class in cn.nukkit.block">BlockDoorAcacia</a>, <a href="../../../cn/nukkit/block/BlockDoorBirch.html" title="class in cn.nukkit.block">BlockDoorBirch</a>, <a href="../../../cn/nukkit/block/BlockDoorCrimson.html" title="class in cn.nukkit.block">BlockDoorCrimson</a>, <a href="../../../cn/nukkit/block/BlockDoorDarkOak.html" title="class in cn.nukkit.block">BlockDoorDarkOak</a>, <a href="../../../cn/nukkit/block/BlockDoorIron.html" title="class in cn.nukkit.block">BlockDoorIron</a>, <a href="../../../cn/nukkit/block/BlockDoorJungle.html" title="class in cn.nukkit.block">BlockDoorJungle</a>, <a href="../../../cn/nukkit/block/BlockDoorSpruce.html" title="class in cn.nukkit.block">BlockDoorSpruce</a>, <a href="../../../cn/nukkit/block/BlockDoorWarped.html" title="class in cn.nukkit.block">BlockDoorWarped</a>, <a href="../../../cn/nukkit/block/BlockDoorWood.html" title="class in cn.nukkit.block">BlockDoorWood</a>, <a href="../../../cn/nukkit/block/BlockDropper.html" title="class in cn.nukkit.block">BlockDropper</a>, <a href="../../../cn/nukkit/block/BlockFenceGate.html" title="class in cn.nukkit.block">BlockFenceGate</a>, <a href="../../../cn/nukkit/block/BlockFenceGateAcacia.html" title="class in cn.nukkit.block">BlockFenceGateAcacia</a>, <a href="../../../cn/nukkit/block/BlockFenceGateBirch.html" title="class in cn.nukkit.block">BlockFenceGateBirch</a>, <a href="../../../cn/nukkit/block/BlockFenceGateCrimson.html" title="class in cn.nukkit.block">BlockFenceGateCrimson</a>, <a href="../../../cn/nukkit/block/BlockFenceGateDarkOak.html" title="class in cn.nukkit.block">BlockFenceGateDarkOak</a>, <a href="../../../cn/nukkit/block/BlockFenceGateJungle.html" title="class in cn.nukkit.block">BlockFenceGateJungle</a>, <a href="../../../cn/nukkit/block/BlockFenceGateSpruce.html" title="class in cn.nukkit.block">BlockFenceGateSpruce</a>, <a href="../../../cn/nukkit/block/BlockFenceGateWarped.html" title="class in cn.nukkit.block">BlockFenceGateWarped</a>, <a href="../../../cn/nukkit/block/BlockHopper.html" title="class in cn.nukkit.block">BlockHopper</a>, <a href="../../../cn/nukkit/block/BlockLectern.html" title="class in cn.nukkit.block">BlockLectern</a>, <a href="../../../cn/nukkit/block/BlockLever.html" title="class in cn.nukkit.block">BlockLever</a>, <a href="../../../cn/nukkit/block/BlockNoteblock.html" title="class in cn.nukkit.block">BlockNoteblock</a>, <a href="../../../cn/nukkit/block/BlockObserver.html" title="class in cn.nukkit.block">BlockObserver</a>, <a href="../../../cn/nukkit/block/BlockPiston.html" title="class in cn.nukkit.block">BlockPiston</a>, <a href="../../../cn/nukkit/block/BlockPistonBase.html" title="class in cn.nukkit.block">BlockPistonBase</a>, <a href="../../../cn/nukkit/block/BlockPistonSticky.html" title="class in cn.nukkit.block">BlockPistonSticky</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateAcacia.html" title="class in cn.nukkit.block">BlockPressurePlateAcacia</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateBase.html" title="class in cn.nukkit.block">BlockPressurePlateBase</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateBirch.html" title="class in cn.nukkit.block">BlockPressurePlateBirch</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateBlackstonePolished.html" title="class in cn.nukkit.block">BlockPressurePlateBlackstonePolished</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateCrimson.html" title="class in cn.nukkit.block">BlockPressurePlateCrimson</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateDarkOak.html" title="class in cn.nukkit.block">BlockPressurePlateDarkOak</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateJungle.html" title="class in cn.nukkit.block">BlockPressurePlateJungle</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateSpruce.html" title="class in cn.nukkit.block">BlockPressurePlateSpruce</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateStone.html" title="class in cn.nukkit.block">BlockPressurePlateStone</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateWarped.html" title="class in cn.nukkit.block">BlockPressurePlateWarped</a>, <a href="../../../cn/nukkit/block/BlockPressurePlateWood.html" title="class in cn.nukkit.block">BlockPressurePlateWood</a>, <a href="../../../cn/nukkit/block/BlockRailActivator.html" title="class in cn.nukkit.block">BlockRailActivator</a>, <a href="../../../cn/nukkit/block/BlockRailPowered.html" title="class in cn.nukkit.block">BlockRailPowered</a>, <a href="../../../cn/nukkit/block/BlockRedstone.html" title="class in cn.nukkit.block">BlockRedstone</a>, <a href="../../../cn/nukkit/block/BlockRedstoneComparator.html" title="class in cn.nukkit.block">BlockRedstoneComparator</a>, <a href="../../../cn/nukkit/block/BlockRedstoneComparatorPowered.html" title="class in cn.nukkit.block">BlockRedstoneComparatorPowered</a>, <a href="../../../cn/nukkit/block/BlockRedstoneComparatorUnpowered.html" title="class in cn.nukkit.block">BlockRedstoneComparatorUnpowered</a>, <a href="../../../cn/nukkit/block/BlockRedstoneDiode.html" title="class in cn.nukkit.block">BlockRedstoneDiode</a>, <a href="../../../cn/nukkit/block/BlockRedstoneLamp.html" title="class in cn.nukkit.block">BlockRedstoneLamp</a>, <a href="../../../cn/nukkit/block/BlockRedstoneLampLit.html" title="class in cn.nukkit.block">BlockRedstoneLampLit</a>, <a href="../../../cn/nukkit/block/BlockRedstoneRepeater.html" title="class in cn.nukkit.block">BlockRedstoneRepeater</a>, <a href="../../../cn/nukkit/block/BlockRedstoneRepeaterPowered.html" title="class in cn.nukkit.block">BlockRedstoneRepeaterPowered</a>, <a href="../../../cn/nukkit/block/BlockRedstoneRepeaterUnpowered.html" title="class in cn.nukkit.block">BlockRedstoneRepeaterUnpowered</a>, <a href="../../../cn/nukkit/block/BlockRedstoneTorch.html" title="class in cn.nukkit.block">BlockRedstoneTorch</a>, <a href="../../../cn/nukkit/block/BlockRedstoneTorchUnlit.html" title="class in cn.nukkit.block">BlockRedstoneTorchUnlit</a>, <a href="../../../cn/nukkit/block/BlockRedstoneWire.html" title="class in cn.nukkit.block">BlockRedstoneWire</a>, <a href="../../../cn/nukkit/block/BlockSkull.html" title="class in cn.nukkit.block">BlockSkull</a>, <a href="../../../cn/nukkit/block/BlockTarget.html" title="class in cn.nukkit.block">BlockTarget</a>, <a href="../../../cn/nukkit/block/BlockTNT.html" title="class in cn.nukkit.block">BlockTNT</a>, <a href="../../../cn/nukkit/block/BlockTrapdoor.html" title="class in cn.nukkit.block">BlockTrapdoor</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorAcacia.html" title="class in cn.nukkit.block">BlockTrapdoorAcacia</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorBirch.html" title="class in cn.nukkit.block">BlockTrapdoorBirch</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorCrimson.html" title="class in cn.nukkit.block">BlockTrapdoorCrimson</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorDarkOak.html" title="class in cn.nukkit.block">BlockTrapdoorDarkOak</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorIron.html" title="class in cn.nukkit.block">BlockTrapdoorIron</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorJungle.html" title="class in cn.nukkit.block">BlockTrapdoorJungle</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorSpruce.html" title="class in cn.nukkit.block">BlockTrapdoorSpruce</a>, <a href="../../../cn/nukkit/block/BlockTrapdoorWarped.html" title="class in cn.nukkit.block">BlockTrapdoorWarped</a>, <a href="../../../cn/nukkit/block/BlockTripWireHook.html" title="class in cn.nukkit.block">BlockTripWireHook</a>, <a href="../../../cn/nukkit/block/BlockWeightedPressurePlateHeavy.html" title="class in cn.nukkit.block">BlockWeightedPressurePlateHeavy</a>, <a href="../../../cn/nukkit/block/BlockWeightedPressurePlateLight.html" title="class in cn.nukkit.block">BlockWeightedPressurePlateLight</a></dd>
+</dl>
+<hr>
+<br>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public interface <span class="typeNameLabel">RedstoneComponent</span></pre>
+<div class="block">Interface, all redstone components implement, containing redstone related methods.</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t1" class="tableTab"><span><a href="javascript:show(1);">Static Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t5" class="tableTab"><span><a href="javascript:show(16);">Default Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code>default void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAllAroundRedstone-cn.nukkit.math.BlockFace...-">updateAllAroundRedstone</a></span>(<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around this block.</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>default void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAllAroundRedstone-java.util.List-">updateAllAroundRedstone</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around this block and also around the blocks of those updated blocks.</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAllAroundRedstone-cn.nukkit.level.Position-cn.nukkit.math.BlockFace...-">updateAllAroundRedstone</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                       <a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around the given position and also around the blocks of those updated blocks.</div>
+</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAllAroundRedstone-cn.nukkit.level.Position-java.util.List-">updateAllAroundRedstone</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                       <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around the given position and also around the blocks of those updated blocks.</div>
+</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>default void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAroundRedstone-cn.nukkit.math.BlockFace...-">updateAroundRedstone</a></span>(<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around this block.</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>default void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAroundRedstone-java.util.List-">updateAroundRedstone</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around this block.</div>
+</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAroundRedstone-cn.nukkit.level.Position-cn.nukkit.math.BlockFace...-">updateAroundRedstone</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                    <a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around the given position.</div>
+</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/utils/RedstoneComponent.html#updateAroundRedstone-cn.nukkit.level.Position-java.util.List-">updateAroundRedstone</a></span>(<a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                    <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</code>
+<div class="block">Send a redstone update to all blocks around the given position.</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="updateAroundRedstone-cn.nukkit.math.BlockFace...-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateAroundRedstone</h4>
+<pre>default&nbsp;void&nbsp;updateAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nullable.html?is-external=true" title="class or interface in javax.annotation">@Nullable</a>
+                                  <a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around this block.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+<a name="updateAroundRedstone-java.util.List-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateAroundRedstone</h4>
+<pre>default&nbsp;void&nbsp;updateAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                  <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around this block.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+<a name="updateAllAroundRedstone-cn.nukkit.math.BlockFace...-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateAllAroundRedstone</h4>
+<pre>default&nbsp;void&nbsp;updateAllAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nullable.html?is-external=true" title="class or interface in javax.annotation">@Nullable</a>
+                                     <a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around this block.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+<a name="updateAllAroundRedstone-java.util.List-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateAllAroundRedstone</h4>
+<pre>default&nbsp;void&nbsp;updateAllAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                     <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around this block and also around the blocks of those updated blocks.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+<a name="updateAroundRedstone-cn.nukkit.level.Position-cn.nukkit.math.BlockFace...-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateAroundRedstone</h4>
+<pre>static&nbsp;void&nbsp;updateAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                 <a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                                 <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nullable.html?is-external=true" title="class or interface in javax.annotation">@Nullable</a>
+                                 <a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around the given position.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>pos</code> - The middle of the blocks around.</dd>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+<a name="updateAroundRedstone-cn.nukkit.level.Position-java.util.List-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateAroundRedstone</h4>
+<pre>static&nbsp;void&nbsp;updateAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                 <a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                                 <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                 <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around the given position.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>pos</code> - The middle of the blocks around.</dd>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+<a name="updateAllAroundRedstone-cn.nukkit.level.Position-cn.nukkit.math.BlockFace...-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateAllAroundRedstone</h4>
+<pre>static&nbsp;void&nbsp;updateAllAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                    <a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                                    <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nullable.html?is-external=true" title="class or interface in javax.annotation">@Nullable</a>
+                                    <a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>...&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around the given position and also around the blocks of those updated blocks.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>pos</code> - The middle of the blocks around.</dd>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+<a name="updateAllAroundRedstone-cn.nukkit.level.Position-java.util.List-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>updateAllAroundRedstone</h4>
+<pre>static&nbsp;void&nbsp;updateAllAroundRedstone(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                    <a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;pos,
+                                    <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                    <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../cn/nukkit/math/BlockFace.html" title="enum in cn.nukkit.math">BlockFace</a>&gt;&nbsp;ignoredFaces)</pre>
+<div class="block">Send a redstone update to all blocks around the given position and also around the blocks of those updated blocks.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>pos</code> - The middle of the blocks around.</dd>
+<dd><code>ignoredFaces</code> - The faces, that shouldn't get updated.</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar.bottom">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.bottom.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/RedstoneComponent.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../index-all.html">Index</a></li>
+<li><a href="../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../cn/nukkit/utils/Rail.Orientation.State.html" title="enum in cn.nukkit.utils"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../cn/nukkit/utils/SerializedImage.html" title="class in cn.nukkit.utils"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../index.html?cn/nukkit/utils/RedstoneComponent.html" target="_top">Frames</a></li>
+<li><a href="RedstoneComponent.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li>Constr&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div>
+<a name="skip.navbar.bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+</body>
+</html>

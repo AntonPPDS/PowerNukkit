@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>BlockProperty (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -19,7 +19,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":6,"i4":10,"i5":10,"i6":10,"i7":6,"i8":6,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":6,"i18":10,"i19":10,"i20":10,"i21":6,"i22":6,"i23":10,"i24":10,"i25":6,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":6};
+var methods = {"i0":6,"i1":6,"i2":10,"i3":10,"i4":10,"i5":6,"i6":10,"i7":10,"i8":10,"i9":6,"i10":6,"i11":6,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":6,"i21":10,"i22":10,"i23":10,"i24":6,"i25":6,"i26":10,"i27":10,"i28":6,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":10,"i36":10,"i37":10,"i38":6};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -167,167 +167,179 @@ implements <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializab
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>int</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getBitSize--">getBitSize</a></span>()</code>&nbsp;</td>
+<td class="colFirst"><code>abstract <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#copy--">copy</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getDefaultBooleanValue--">getDefaultBooleanValue</a></span>()</code>&nbsp;</td>
+<td class="colFirst"><code>abstract <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#exportingToItems-boolean-">exportingToItems</a></span>(boolean&nbsp;exportedToItem)</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>int</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getDefaultIntValue--">getDefaultIntValue</a></span>()</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getBitSize--">getBitSize</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i3" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getDefaultBooleanValue--">getDefaultBooleanValue</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getDefaultIntValue--">getDefaultIntValue</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>abstract <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getDefaultValue--">getDefaultValue</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getIntValue-java.math.BigInteger-int-">getIntValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
            int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getIntValue-int-int-">getIntValue</a></span>(int&nbsp;currentMeta,
            int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i6" class="altColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getIntValue-long-int-">getIntValue</a></span>(long&nbsp;currentMeta,
            int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code>abstract int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getIntValueForMeta-int-">getIntValueForMeta</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i10" class="altColor">
+<td class="colFirst"><code>abstract int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getMetaForPersistenceValue-java.lang.String-">getMetaForPersistenceValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</code>&nbsp;</td>
+</tr>
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code>abstract int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getMetaForValue-T-">getMetaForValue</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i12" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getMetaFromBigInt-java.math.BigInteger-int-">getMetaFromBigInt</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
                  int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i10" class="altColor">
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getMetaFromInt-int-int-">getMetaFromInt</a></span>(int&nbsp;currentMeta,
               int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i11" class="rowColor">
+<tr id="i14" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getMetaFromLong-long-int-">getMetaFromLong</a></span>(long&nbsp;currentMeta,
                int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i12" class="altColor">
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getName--">getName</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i13" class="rowColor">
+<tr id="i16" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getPersistenceName--">getPersistenceName</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i14" class="altColor">
+<tr id="i17" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getPersistenceValue-java.math.BigInteger-int-">getPersistenceValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentMeta,
                    int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i15" class="rowColor">
+<tr id="i18" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getPersistenceValue-int-int-">getPersistenceValue</a></span>(int&nbsp;currentMeta,
                    int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i16" class="altColor">
+<tr id="i19" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getPersistenceValue-long-int-">getPersistenceValue</a></span>(long&nbsp;currentMeta,
                    int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i17" class="rowColor">
+<tr id="i20" class="altColor">
 <td class="colFirst"><code>abstract <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getPersistenceValueForMeta-int-">getPersistenceValueForMeta</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
-<tr id="i18" class="altColor">
+<tr id="i21" class="rowColor">
 <td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getValue-java.math.BigInteger-int-">getValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentHugeMeta,
         int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i19" class="rowColor">
+<tr id="i22" class="altColor">
 <td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getValue-int-int-">getValue</a></span>(int&nbsp;currentMeta,
         int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i20" class="altColor">
+<tr id="i23" class="rowColor">
 <td class="colFirst"><code><a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getValue-long-int-">getValue</a></span>(long&nbsp;currentBigMeta,
         int&nbsp;bitOffset)</code>&nbsp;</td>
 </tr>
-<tr id="i21" class="rowColor">
+<tr id="i24" class="altColor">
 <td class="colFirst"><code>abstract <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getValueClass--">getValueClass</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i22" class="altColor">
+<tr id="i25" class="rowColor">
 <td class="colFirst"><code>abstract <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#getValueForMeta-int-">getValueForMeta</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
-<tr id="i23" class="rowColor">
+<tr id="i26" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#isDefaultBooleanValue-boolean-">isDefaultBooleanValue</a></span>(boolean&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i24" class="altColor">
+<tr id="i27" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#isDefaultIntValue-int-">isDefaultIntValue</a></span>(int&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i25" class="rowColor">
+<tr id="i28" class="altColor">
 <td class="colFirst"><code>abstract boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#isDefaultValue-T-">isDefaultValue</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i26" class="altColor">
+<tr id="i29" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#isExportedToItem--">isExportedToItem</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i27" class="rowColor">
+<tr id="i30" class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#setValue-java.math.BigInteger-int-T-">setValue</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;currentHugeMeta,
         int&nbsp;bitOffset,
         <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&nbsp;newValue)</code>&nbsp;</td>
 </tr>
-<tr id="i28" class="altColor">
+<tr id="i31" class="rowColor">
 <td class="colFirst"><code>int</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#setValue-int-int-T-">setValue</a></span>(int&nbsp;currentMeta,
         int&nbsp;bitOffset,
         <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&nbsp;newValue)</code>&nbsp;</td>
 </tr>
-<tr id="i29" class="rowColor">
+<tr id="i32" class="altColor">
 <td class="colFirst"><code>long</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#setValue-long-int-T-">setValue</a></span>(long&nbsp;currentBigMeta,
         int&nbsp;bitOffset,
         <a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&nbsp;newValue)</code>&nbsp;</td>
 </tr>
-<tr id="i30" class="altColor">
+<tr id="i33" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#toString--">toString</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i31" class="rowColor">
+<tr id="i34" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#validateDirectly-T-">validateDirectly</a></span>(<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
-<tr id="i32" class="altColor">
+<tr id="i35" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#validateMeta-java.math.BigInteger-int-">validateMeta</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html?is-external=true" title="class or interface in java.math">BigInteger</a>&nbsp;meta,
             int&nbsp;offset)</code>&nbsp;</td>
 </tr>
-<tr id="i33" class="rowColor">
+<tr id="i36" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#validateMeta-int-int-">validateMeta</a></span>(int&nbsp;meta,
             int&nbsp;offset)</code>&nbsp;</td>
 </tr>
-<tr id="i34" class="altColor">
+<tr id="i37" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#validateMeta-long-int-">validateMeta</a></span>(long&nbsp;meta,
             int&nbsp;offset)</code>&nbsp;</td>
 </tr>
-<tr id="i35" class="rowColor">
+<tr id="i38" class="altColor">
 <td class="colFirst"><code>protected abstract void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/blockproperty/BlockProperty.html#validateMetaDirectly-int-">validateMetaDirectly</a></span>(int&nbsp;meta)</code>&nbsp;</td>
 </tr>
@@ -713,6 +725,21 @@ public abstract&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/lan
 </dl>
 </li>
 </ul>
+<a name="getMetaForPersistenceValue-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMetaForPersistenceValue</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public abstract&nbsp;int&nbsp;getMetaForPersistenceValue(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;persistenceValue)</pre>
+<dl>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="../../../cn/nukkit/blockproperty/exception/InvalidBlockPropertyPersistenceValueException.html" title="class in cn.nukkit.blockproperty.exception">InvalidBlockPropertyPersistenceValueException</a></code> - IF the persistence value is not valid for this property</dd>
+</dl>
+</li>
+</ul>
 <a name="validateDirectly-java.io.Serializable-">
 <!--   -->
 </a><a name="validateDirectly-T-">
@@ -930,12 +957,34 @@ public&nbsp;int&nbsp;getDefaultIntValue()</pre>
 <a name="getDefaultBooleanValue--">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>getDefaultBooleanValue</h4>
 <pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
  <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
 public&nbsp;boolean&nbsp;getDefaultBooleanValue()</pre>
+</li>
+</ul>
+<a name="copy--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>copy</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public abstract&nbsp;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&gt;&nbsp;copy()</pre>
+</li>
+</ul>
+<a name="exportingToItems-boolean-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>exportingToItems</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public abstract&nbsp;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="class in cn.nukkit.blockproperty">BlockProperty</a>&lt;<a href="../../../cn/nukkit/blockproperty/BlockProperty.html" title="type parameter in BlockProperty">T</a>&gt;&nbsp;exportingToItems(boolean&nbsp;exportedToItem)</pre>
 </li>
 </ul>
 </li>
@@ -1007,6 +1056,6 @@ public&nbsp;boolean&nbsp;getDefaultBooleanValue()</pre>
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

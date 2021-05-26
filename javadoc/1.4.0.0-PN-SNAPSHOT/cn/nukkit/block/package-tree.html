@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>cn.nukkit.block Class Hierarchy (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -93,6 +93,7 @@
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockMeta.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockMeta</span></a>
 <ul>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRespawnAnchor.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRespawnAnchor</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSolidMeta.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSolidMeta</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBarrel.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBarrel</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
@@ -101,6 +102,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPolishedBasalt.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPolishedBasalt</span></a></li>
 </ul>
 </li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBedrock.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBedrock</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBeehive.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBeehive</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBeeNest.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBeeNest</span></a></li>
@@ -128,7 +130,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPodzol.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPodzol</span></a></li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDispenser.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDispenser</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDispenser.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDispenser</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDropper.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDropper</span></a></li>
 </ul>
@@ -211,8 +213,8 @@
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLoom.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLoom</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockMonsterEgg.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockMonsterEgg</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockObserver.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockObserver</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPistonBase.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPistonBase</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockObserver.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockObserver</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPistonBase.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPistonBase</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPiston.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPiston</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPistonSticky.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPistonSticky</span></a></li>
@@ -228,7 +230,7 @@
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPurpur.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPurpur</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockQuartz.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockQuartz</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstone</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstone</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSandstone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSandstone</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedSandstone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedSandstone</span></a></li>
@@ -271,7 +273,7 @@
 </ul>
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBed.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBed</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBell.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBell</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBell.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBell</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBubbleColumn.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBubbleColumn</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockCactus.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockCactus</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockCake.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockCake</span></a></li>
@@ -286,12 +288,12 @@
 </ul>
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockCocoa.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockCocoa</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDaylightDetector.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDaylightDetector</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDaylightDetector.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDaylightDetector</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDaylightDetectorInverted.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDaylightDetectorInverted</span></a></li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDoor.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDoor</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDoor.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDoor</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDoorIron.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDoorIron</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockDoorWood.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockDoorWood</span></a>
@@ -322,7 +324,7 @@
 </li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockFenceGate.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockFenceGate</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockFenceGate.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockFenceGate</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockFenceGateAcacia.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockFenceGateAcacia</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockFenceGateBirch.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockFenceGateBirch</span></a></li>
@@ -336,7 +338,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockFlowable.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockFlowable</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBambooSapling.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBambooSapling</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockButton.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockButton</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockButton.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockButton</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockButtonStone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockButtonStone</span></a>
 <ul>
@@ -411,7 +413,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSoulLantern.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSoulLantern</span></a></li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLever.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLever</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLever.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLever</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockMushroom.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockMushroom</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockMushroomBrown.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockMushroomBrown</span></a></li>
@@ -420,7 +422,7 @@
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNetherPortal.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNetherPortal</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNetherWart.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNetherWart</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPressurePlateBase.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPressurePlateBase</span></a>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPressurePlateBase.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPressurePlateBase</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPressurePlateStone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPressurePlateStone</span></a>
 <ul>
@@ -444,14 +446,14 @@
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRail.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRail</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
 <ul>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRailActivator.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRailActivator</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRailActivator.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRailActivator</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRailDetector.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRailDetector</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRailPowered.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRailPowered</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRailPowered.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRailPowered</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneDiode.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneDiode</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneDiode.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneDiode</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneComparator.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneComparator</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneComparator.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneComparator</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneComparatorPowered.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneComparatorPowered</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneComparatorUnpowered.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneComparatorUnpowered</span></a></li>
@@ -465,7 +467,7 @@
 </li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneWire.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneWire</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneWire.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneWire</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRoots.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRoots</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNetherSprout.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNetherSprout</span></a></li>
@@ -481,8 +483,8 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTallGrass.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTallGrass</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTorch.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTorch</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
 <ul>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneTorch.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneTorch</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneTorchUnlit.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneTorchUnlit</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneTorch.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneTorch</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneTorchUnlit.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneTorchUnlit</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSoulTorch.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSoulTorch</span></a></li>
 </ul>
 </li>
@@ -491,16 +493,16 @@
 </ul>
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockGrindstone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockGrindstone</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockHopper.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockHopper</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockHopper.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockHopper</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockIceFrosted.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockIceFrosted</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockItemFrame.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockItemFrame</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockItemFrame.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockItemFrame</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLadder.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLadder</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLeaves.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLeaves</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLeaves2.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLeaves2</span></a></li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLectern.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLectern</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLectern.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLectern</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLight.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLight</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLiquid.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockLiquid</span></a>
 <ul>
@@ -543,7 +545,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockWarpedSignPost.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockWarpedSignPost</span></a></li>
 </ul>
 </li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSkull.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSkull</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSkull.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSkull</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSlab.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSlab</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSlabBlackstone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSlabBlackstone</span></a></li>
@@ -611,7 +613,7 @@
 </ul>
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockStonecutterBlock.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockStonecutterBlock</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)</li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTrapdoor.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTrapdoor</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>)
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTrapdoor.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTrapdoor</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/Faceable.html" title="interface in cn.nukkit.utils">Faceable</a>, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTrapdoorAcacia.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTrapdoorAcacia</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTrapdoorBirch.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTrapdoorBirch</span></a></li>
@@ -624,7 +626,7 @@
 </ul>
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTripWire.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTripWire</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTripWireHook.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTripWireHook</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTripWireHook.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTripWireHook</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockVine.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockVine</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockVinesNether.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockVinesNether</span></a>
 <ul>
@@ -654,7 +656,6 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockAllow.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockAllow</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockAncientDebris.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockAncientDebris</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBarrier.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBarrier</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBedrock.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBedrock</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBedrockInvisible.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBedrockInvisible</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockBlackstone.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockBlackstone</span></a>
 <ul>
@@ -728,7 +729,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNetherrack.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNetherrack</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNetherReactor.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNetherReactor</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNetherWartBlock.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNetherWartBlock</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNoteblock.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNoteblock</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNoteblock.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNoteblock</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNylium.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNylium</span></a>
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNyliumCrimson.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockNyliumCrimson</span></a></li>
@@ -753,9 +754,9 @@
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPlanksCrimson.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPlanksCrimson</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockPlanksWarped.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockPlanksWarped</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneLamp.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneLamp</span></a>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneLamp.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneLamp</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)
 <ul>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneLampLit.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneLampLit</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneLampLit.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneLampLit</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 </ul>
 </li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSlime.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSlime</span></a></li>
@@ -766,7 +767,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSoulSoil.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSoulSoil</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockStonecutter.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockStonecutter</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockStructureVoid.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockStructureVoid</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTNT.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTNT</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTNT.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTNT</span></a> (implements cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockWarpedWartBlock.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockWarpedWartBlock</span></a></li>
 </ul>
 </li>
@@ -797,7 +798,7 @@
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockMoving.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockMoving</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockSeaLantern.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockSeaLantern</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockShroomlight.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockShroomlight</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTarget.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTarget</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;)</li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTarget.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockTarget</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockEntityHolder.html" title="interface in cn.nukkit.block">BlockEntityHolder</a>&lt;E&gt;, cn.nukkit.utils.<a href="../../../cn/nukkit/utils/RedstoneComponent.html" title="interface in cn.nukkit.utils">RedstoneComponent</a>)</li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockThin.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockThin</span></a> (implements cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockConnectable.html" title="interface in cn.nukkit.block">BlockConnectable</a>)
 <ul>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockGlassPane.html" title="class in cn.nukkit.block"><span class="typeNameLink">BlockGlassPane</span></a>
@@ -838,12 +839,12 @@
 <ul>
 <li type="circle">java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html?is-external=true" title="class or interface in java.lang"><span class="typeNameLink">Enum</span></a>&lt;E&gt; (implements java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html?is-external=true" title="class or interface in java.lang">Comparable</a>&lt;T&gt;, java.io.<a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>)
 <ul>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLever.LeverOrientation.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockLever.LeverOrientation</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneComparator.Mode.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneComparator.Mode</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockTorch.TorchAttachment.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockTorch.TorchAttachment</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNoteblock.Instrument.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockNoteblock.Instrument</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockWall.WallConnectionType.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockWall.WallConnectionType</span></a></li>
 <li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockWall.WallType.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockWall.WallType</span></a></li>
-<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockNoteblock.Instrument.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockNoteblock.Instrument</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockLever.LeverOrientation.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockLever.LeverOrientation</span></a></li>
+<li type="circle">cn.nukkit.block.<a href="../../../cn/nukkit/block/BlockRedstoneComparator.Mode.html" title="enum in cn.nukkit.block"><span class="typeNameLink">BlockRedstoneComparator.Mode</span></a></li>
 </ul>
 </li>
 </ul>
@@ -897,6 +898,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

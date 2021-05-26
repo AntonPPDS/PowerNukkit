@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>PlayerRespawnEvent (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -19,7 +19,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":9,"i1":10,"i2":10,"i3":10};
+var methods = {"i0":9,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10};
 var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -191,15 +191,71 @@ extends <a href="../../../../cn/nukkit/event/player/PlayerEvent.html" title="cla
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#getRespawnPosition--">getRespawnPosition</a></span>()</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#getOriginalRespawnPosition--">getOriginalRespawnPosition</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#getRespawnBlockPosition--">getRespawnBlockPosition</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#getRespawnPosition--">getRespawnPosition</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#isConsumeCharge--">isConsumeCharge</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#isFirstSpawn--">isFirstSpawn</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#isKeepRespawnBlockPosition--">isKeepRespawnBlockPosition</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#isKeepRespawnPosition--">isKeepRespawnPosition</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i8" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#isRespawnBlockAvailable--">isRespawnBlockAvailable</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i9" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#isSendInvalidRespawnBlockMessage--">isSendInvalidRespawnBlockMessage</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i10" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setConsumeCharge-boolean-">setConsumeCharge</a></span>(boolean&nbsp;consumeCharge)</code>&nbsp;</td>
+</tr>
+<tr id="i11" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setKeepRespawnBlockPosition-boolean-">setKeepRespawnBlockPosition</a></span>(boolean&nbsp;keepRespawnBlockPosition)</code>&nbsp;</td>
+</tr>
+<tr id="i12" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setKeepRespawnPosition-boolean-">setKeepRespawnPosition</a></span>(boolean&nbsp;keepRespawnPosition)</code>&nbsp;</td>
+</tr>
+<tr id="i13" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setOriginalRespawnPosition-cn.nukkit.level.Position-">setOriginalRespawnPosition</a></span>(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;originalSpawnPosition)</code>&nbsp;</td>
+</tr>
+<tr id="i14" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setRespawnBlockAvailable-boolean-">setRespawnBlockAvailable</a></span>(boolean&nbsp;spawnBlockAvailable)</code>&nbsp;</td>
+</tr>
+<tr id="i15" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setRespawnBlockPosition-cn.nukkit.level.Position-">setRespawnBlockPosition</a></span>(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;spawnBlock)</code>&nbsp;</td>
+</tr>
+<tr id="i16" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setRespawnPosition-cn.nukkit.level.Position-">setRespawnPosition</a></span>(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position)</code>&nbsp;</td>
+</tr>
+<tr id="i17" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/player/PlayerRespawnEvent.html#setSendInvalidRespawnBlockMessage-boolean-">setSendInvalidRespawnBlockMessage</a></span>(boolean&nbsp;sendInvalidRespawnBlockMessage)</code>&nbsp;</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -296,10 +352,164 @@ extends <a href="../../../../cn/nukkit/event/player/PlayerEvent.html" title="cla
 <a name="isFirstSpawn--">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>isFirstSpawn</h4>
 <pre>public&nbsp;boolean&nbsp;isFirstSpawn()</pre>
+</li>
+</ul>
+<a name="getRespawnBlockPosition--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getRespawnBlockPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;getRespawnBlockPosition()</pre>
+</li>
+</ul>
+<a name="setRespawnBlockPosition-cn.nukkit.level.Position-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setRespawnBlockPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setRespawnBlockPosition(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;spawnBlock)</pre>
+</li>
+</ul>
+<a name="isRespawnBlockAvailable--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isRespawnBlockAvailable</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;boolean&nbsp;isRespawnBlockAvailable()</pre>
+</li>
+</ul>
+<a name="setRespawnBlockAvailable-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setRespawnBlockAvailable</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setRespawnBlockAvailable(boolean&nbsp;spawnBlockAvailable)</pre>
+</li>
+</ul>
+<a name="getOriginalRespawnPosition--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getOriginalRespawnPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;getOriginalRespawnPosition()</pre>
+</li>
+</ul>
+<a name="setOriginalRespawnPosition-cn.nukkit.level.Position-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setOriginalRespawnPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setOriginalRespawnPosition(<a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;originalSpawnPosition)</pre>
+</li>
+</ul>
+<a name="isKeepRespawnBlockPosition--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isKeepRespawnBlockPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;boolean&nbsp;isKeepRespawnBlockPosition()</pre>
+</li>
+</ul>
+<a name="setKeepRespawnBlockPosition-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setKeepRespawnBlockPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setKeepRespawnBlockPosition(boolean&nbsp;keepRespawnBlockPosition)</pre>
+</li>
+</ul>
+<a name="isKeepRespawnPosition--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isKeepRespawnPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;boolean&nbsp;isKeepRespawnPosition()</pre>
+</li>
+</ul>
+<a name="setKeepRespawnPosition-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setKeepRespawnPosition</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setKeepRespawnPosition(boolean&nbsp;keepRespawnPosition)</pre>
+</li>
+</ul>
+<a name="isSendInvalidRespawnBlockMessage--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isSendInvalidRespawnBlockMessage</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;boolean&nbsp;isSendInvalidRespawnBlockMessage()</pre>
+</li>
+</ul>
+<a name="setSendInvalidRespawnBlockMessage-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setSendInvalidRespawnBlockMessage</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setSendInvalidRespawnBlockMessage(boolean&nbsp;sendInvalidRespawnBlockMessage)</pre>
+</li>
+</ul>
+<a name="isConsumeCharge--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isConsumeCharge</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;boolean&nbsp;isConsumeCharge()</pre>
+</li>
+</ul>
+<a name="setConsumeCharge-boolean-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>setConsumeCharge</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setConsumeCharge(boolean&nbsp;consumeCharge)</pre>
 </li>
 </ul>
 </li>
@@ -371,6 +581,6 @@ extends <a href="../../../../cn/nukkit/event/player/PlayerEvent.html" title="cla
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

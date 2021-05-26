@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>cn.nukkit.event.entity Class Hierarchy (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -108,7 +108,7 @@
 </ul>
 </li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityDeathEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityDeathEvent</span></a></li>
-<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityDespawnEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityDespawnEvent</span></a></li>
+<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityDespawnEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityDespawnEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityExplodeEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityExplosionPrimeEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityExplosionPrimeEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityInteractEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityInteractEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
@@ -122,13 +122,13 @@
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityPortalEnterEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityPortalEnterEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityRegainHealthEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityRegainHealthEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityShootBowEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityShootBowEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
-<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntitySpawnEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntitySpawnEvent</span></a></li>
+<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntitySpawnEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntitySpawnEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityTeleportEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityTeleportEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityVehicleEnterEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityVehicleEnterEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityVehicleExitEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">EntityVehicleExitEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/ExplosionPrimeEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">ExplosionPrimeEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/ItemDespawnEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">ItemDespawnEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
-<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/ItemSpawnEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">ItemSpawnEvent</span></a></li>
+<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/ItemSpawnEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">ItemSpawnEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/ProjectileHitEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">ProjectileHitEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/ProjectileLaunchEvent.html" title="class in cn.nukkit.event.entity"><span class="typeNameLink">ProjectileLaunchEvent</span></a> (implements cn.nukkit.event.<a href="../../../../cn/nukkit/event/Cancellable.html" title="interface in cn.nukkit.event">Cancellable</a>)</li>
 </ul>
@@ -144,11 +144,11 @@
 <ul>
 <li type="circle">java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html?is-external=true" title="class or interface in java.lang"><span class="typeNameLink">Enum</span></a>&lt;E&gt; (implements java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html?is-external=true" title="class or interface in java.lang">Comparable</a>&lt;T&gt;, java.io.<a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>)
 <ul>
-<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/CreatureSpawnEvent.SpawnReason.html" title="enum in cn.nukkit.event.entity"><span class="typeNameLink">CreatureSpawnEvent.SpawnReason</span></a></li>
-<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityPortalEnterEvent.PortalType.html" title="enum in cn.nukkit.event.entity"><span class="typeNameLink">EntityPortalEnterEvent.PortalType</span></a></li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityDamageEvent.DamageModifier.html" title="enum in cn.nukkit.event.entity"><span class="typeNameLink">EntityDamageEvent.DamageModifier</span></a></li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityDamageEvent.DamageCause.html" title="enum in cn.nukkit.event.entity"><span class="typeNameLink">EntityDamageEvent.DamageCause</span></a></li>
+<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/CreatureSpawnEvent.SpawnReason.html" title="enum in cn.nukkit.event.entity"><span class="typeNameLink">CreatureSpawnEvent.SpawnReason</span></a></li>
 <li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/CreeperPowerEvent.PowerCause.html" title="enum in cn.nukkit.event.entity"><span class="typeNameLink">CreeperPowerEvent.PowerCause</span></a></li>
+<li type="circle">cn.nukkit.event.entity.<a href="../../../../cn/nukkit/event/entity/EntityPortalEnterEvent.PortalType.html" title="enum in cn.nukkit.event.entity"><span class="typeNameLink">EntityPortalEnterEvent.PortalType</span></a></li>
 </ul>
 </li>
 </ul>
@@ -202,6 +202,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

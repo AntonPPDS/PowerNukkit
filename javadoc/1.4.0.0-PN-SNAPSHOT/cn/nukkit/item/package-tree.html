@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>cn.nukkit.item Class Hierarchy (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -316,6 +316,7 @@
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemAxeWood.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemAxeWood</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemBow.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemBow</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemCarrotOnAStick.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemCarrotOnAStick</span></a></li>
+<li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemCrossbow.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemCrossbow</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemFishingRod.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemFishingRod</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemFlintSteel.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemFlintSteel</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemHoeDiamond.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemHoeDiamond</span></a></li>
@@ -365,6 +366,23 @@
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemFirework.FireworkExplosion.html" title="class in cn.nukkit.item"><span class="typeNameLink">ItemFirework.FireworkExplosion</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/RuntimeItemMapping.html" title="class in cn.nukkit.item"><span class="typeNameLink">RuntimeItemMapping</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/RuntimeItems.html" title="class in cn.nukkit.item"><span class="typeNameLink">RuntimeItems</span></a></li>
+<li type="circle">java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html?is-external=true" title="class or interface in java.lang"><span class="typeNameLink">Throwable</span></a> (implements java.io.<a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>)
+<ul>
+<li type="circle">java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang"><span class="typeNameLink">Exception</span></a>
+<ul>
+<li type="circle">java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/RuntimeException.html?is-external=true" title="class or interface in java.lang"><span class="typeNameLink">RuntimeException</span></a>
+<ul>
+<li type="circle">java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalStateException.html?is-external=true" title="class or interface in java.lang"><span class="typeNameLink">IllegalStateException</span></a>
+<ul>
+<li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/UnknownNetworkIdException.html" title="class in cn.nukkit.item"><span class="typeNameLink">UnknownNetworkIdException</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -379,9 +397,9 @@
 <ul>
 <li type="circle">java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html?is-external=true" title="class or interface in java.lang"><span class="typeNameLink">Enum</span></a>&lt;E&gt; (implements java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html?is-external=true" title="class or interface in java.lang">Comparable</a>&lt;T&gt;, java.io.<a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>)
 <ul>
+<li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/PNAlphaItemID.html" title="enum in cn.nukkit.item"><span class="typeNameLink">PNAlphaItemID</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/ItemFirework.FireworkExplosion.ExplosionType.html" title="enum in cn.nukkit.item"><span class="typeNameLink">ItemFirework.FireworkExplosion.ExplosionType</span></a></li>
 <li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/MinecraftItemID.html" title="enum in cn.nukkit.item"><span class="typeNameLink">MinecraftItemID</span></a></li>
-<li type="circle">cn.nukkit.item.<a href="../../../cn/nukkit/item/PNAlphaItemID.html" title="enum in cn.nukkit.item"><span class="typeNameLink">PNAlphaItemID</span></a></li>
 </ul>
 </li>
 </ul>
@@ -435,6 +453,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

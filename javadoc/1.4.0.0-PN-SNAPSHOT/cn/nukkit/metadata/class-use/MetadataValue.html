@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Uses of Class cn.nukkit.metadata.MetadataValue (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -121,11 +121,11 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">OfflinePlayer.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/OfflinePlayer.html#getMetadata-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#getMetadata-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#getMetadata-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">OfflinePlayer.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/OfflinePlayer.html#getMetadata-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -138,12 +138,12 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">OfflinePlayer.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/OfflinePlayer.html#setMetadata-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
+<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#setMetadata-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
            <a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&nbsp;newMetadataValue)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#setMetadata-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
+<td class="colLast"><span class="typeNameLabel">OfflinePlayer.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/OfflinePlayer.html#setMetadata-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
            <a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&nbsp;newMetadataValue)</code>&nbsp;</td>
 </tr>
 </tbody>
@@ -258,12 +258,12 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockMetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/BlockMetadataStore.html#getMetadata-java.lang.Object-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;block,
+<td class="colLast"><span class="typeNameLabel">MetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/MetadataStore.html#getMetadata-java.lang.Object-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;subject,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&gt;</code></td>
-<td class="colLast"><span class="typeNameLabel">MetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/MetadataStore.html#getMetadata-java.lang.Object-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;subject,
+<td class="colLast"><span class="typeNameLabel">BlockMetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/BlockMetadataStore.html#getMetadata-java.lang.Object-java.lang.String-">getMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;block,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
@@ -281,13 +281,13 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockMetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/BlockMetadataStore.html#setMetadata-java.lang.Object-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;block,
+<td class="colLast"><span class="typeNameLabel">MetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/MetadataStore.html#setMetadata-java.lang.Object-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;subject,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
            <a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&nbsp;newMetadataValue)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">MetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/MetadataStore.html#setMetadata-java.lang.Object-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;subject,
+<td class="colLast"><span class="typeNameLabel">BlockMetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/BlockMetadataStore.html#setMetadata-java.lang.Object-java.lang.String-cn.nukkit.metadata.MetadataValue-">setMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;block,
            <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
            <a href="../../../../cn/nukkit/metadata/MetadataValue.html" title="class in cn.nukkit.metadata">MetadataValue</a>&nbsp;newMetadataValue)</code>&nbsp;</td>
 </tr>
@@ -350,6 +350,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

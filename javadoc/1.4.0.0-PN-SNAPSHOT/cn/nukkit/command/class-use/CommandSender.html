@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Uses of Interface cn.nukkit.command.CommandSender (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -243,20 +243,20 @@
         <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;cmdLine)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">FormattedCommandAlias.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/FormattedCommandAlias.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colFirst"><code>abstract boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">Command.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/Command.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">PluginCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/PluginCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">FormattedCommandAlias.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/FormattedCommandAlias.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>abstract boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">Command.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/Command.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">PluginCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/PluginCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
@@ -294,79 +294,7 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">SeedCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SeedCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">TimeCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TimeCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">TitleCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TitleCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">SaveOnCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SaveOnCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">TimingsCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TimingsCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ParticleCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/ParticleCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">BanCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/BanCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">DifficultyCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/DifficultyCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">PardonCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/PardonCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">TellCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TellCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">TeleportCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TeleportCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">KickCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/KickCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">SetBlockCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SetBlockCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
@@ -378,61 +306,13 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">GarbageCollectorCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/GarbageCollectorCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">TimeCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TimeCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">VersionCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/VersionCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">MeCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/MeCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">SayCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SayCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">DeopCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/DeopCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BanListCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/BanListCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">WhitelistCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/WhitelistCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">GamemodeCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/GamemodeCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/EnchantCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ListCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/ListCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">TitleCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TitleCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
@@ -444,49 +324,25 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">StatusCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/StatusCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">PluginsCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/PluginsCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">PardonIpCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/PardonIpCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">GamemodeCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/GamemodeCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">OpCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/OpCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">SetWorldSpawnCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SetWorldSpawnCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EffectCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/EffectCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BanIpCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/BanIpCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
-       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">StopCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/StopCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">ReloadCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/ReloadCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
@@ -498,13 +354,25 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">SpawnpointCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SpawnpointCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">BanIpCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/BanIpCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">SaveCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SaveCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">GarbageCollectorCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/GarbageCollectorCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">DifficultyCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/DifficultyCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ParticleCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/ParticleCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
@@ -516,13 +384,109 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SaveOnCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SaveOnCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">KickCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/KickCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">GameruleCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/GameruleCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SetWorldSpawnCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SetWorldSpawnCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">DeopCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/DeopCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">MeCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/MeCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">BanListCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/BanListCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">TellCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TellCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">HelpCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/HelpCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">EffectCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/EffectCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SayCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SayCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SaveCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SaveCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">StatusCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/StatusCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">EnchantCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/EnchantCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">WhitelistCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/WhitelistCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SeedCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SeedCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">TeleportCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TeleportCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SetBlockCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SetBlockCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
@@ -534,19 +498,55 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">DebugPasteCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/DebugPasteCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">TimingsCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/TimingsCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">ReloadCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/ReloadCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+<td class="colLast"><span class="typeNameLabel">DebugPasteCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/DebugPasteCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">SpawnpointCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/SpawnpointCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">ListCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/ListCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">VersionCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/VersionCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">PardonCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/PardonCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">GiveCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/GiveCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">PardonIpCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/PardonIpCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
+       <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">StopCommand.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/defaults/StopCommand.html#execute-cn.nukkit.command.CommandSender-java.lang.String-java.lang.String:A-">execute</a></span>(<a href="../../../../cn/nukkit/command/CommandSender.html" title="interface in cn.nukkit.command">CommandSender</a>&nbsp;sender,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;commandLabel,
        <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;args)</code>&nbsp;</td>
 </tr>
@@ -778,6 +778,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

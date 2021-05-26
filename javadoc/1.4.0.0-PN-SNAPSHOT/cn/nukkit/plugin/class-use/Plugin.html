@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Uses of Interface cn.nukkit.plugin.Plugin (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -184,12 +184,12 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">OfflinePlayer.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/OfflinePlayer.html#removeMetadata-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
+<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#removeMetadata-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
               <a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;owningPlugin)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">Player.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/Player.html#removeMetadata-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
+<td class="colLast"><span class="typeNameLabel">OfflinePlayer.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/OfflinePlayer.html#removeMetadata-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
               <a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;owningPlugin)</code>&nbsp;</td>
 </tr>
 </tbody>
@@ -253,31 +253,31 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
-<td class="colLast"><span class="typeNameLabel">CapturingCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/CapturingCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
 <td class="colLast"><span class="typeNameLabel">ConsoleCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/ConsoleCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
 </tr>
-<tr class="altColor">
-<td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
-<td class="colLast"><span class="typeNameLabel">CapturingCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/CapturingCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-java.lang.String-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin,
-             <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;name)</code>&nbsp;</td>
-</tr>
 <tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
+<td class="colLast"><span class="typeNameLabel">CapturingCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/CapturingCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
 <td class="colLast"><span class="typeNameLabel">ConsoleCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/ConsoleCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-java.lang.String-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin,
              <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;name)</code>&nbsp;</td>
 </tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
+<td class="colLast"><span class="typeNameLabel">CapturingCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/CapturingCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-java.lang.String-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin,
+             <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;name)</code>&nbsp;</td>
+</tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
-<td class="colLast"><span class="typeNameLabel">CapturingCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/CapturingCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-java.lang.String-java.lang.Boolean-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin,
+<td class="colLast"><span class="typeNameLabel">ConsoleCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/ConsoleCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-java.lang.String-java.lang.Boolean-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin,
              <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;name,
              <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/permission/PermissionAttachment.html" title="class in cn.nukkit.permission">PermissionAttachment</a></code></td>
-<td class="colLast"><span class="typeNameLabel">ConsoleCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/ConsoleCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-java.lang.String-java.lang.Boolean-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin,
+<td class="colLast"><span class="typeNameLabel">CapturingCommandSender.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/command/CapturingCommandSender.html#addAttachment-cn.nukkit.plugin.Plugin-java.lang.String-java.lang.Boolean-">addAttachment</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin,
              <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;name,
              <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&nbsp;value)</code>&nbsp;</td>
 </tr>
@@ -476,13 +476,13 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockMetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/BlockMetadataStore.html#removeMetadata-java.lang.Object-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;block,
+<td class="colLast"><span class="typeNameLabel">MetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/MetadataStore.html#removeMetadata-java.lang.Object-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;subject,
               <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
               <a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;owningPlugin)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">MetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/MetadataStore.html#removeMetadata-java.lang.Object-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;subject,
+<td class="colLast"><span class="typeNameLabel">BlockMetadataStore.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/metadata/BlockMetadataStore.html#removeMetadata-java.lang.Object-java.lang.String-cn.nukkit.plugin.Plugin-">removeMetadata</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&nbsp;block,
               <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;metadataKey,
               <a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;owningPlugin)</code>&nbsp;</td>
 </tr>
@@ -648,11 +648,11 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a></code></td>
-<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#loadPlugin-java.io.File-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;file)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#loadPlugin-java.io.File-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;file)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a></code></td>
-<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#loadPlugin-java.io.File-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;file)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#loadPlugin-java.io.File-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;file)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a></code></td>
@@ -668,11 +668,11 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a></code></td>
-<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#loadPlugin-java.lang.String-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;path)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#loadPlugin-java.lang.String-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;filename)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a></code></td>
-<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#loadPlugin-java.lang.String-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;filename)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#loadPlugin-java.lang.String-">loadPlugin</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;path)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a></code></td>
@@ -734,11 +734,11 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#disablePlugin-cn.nukkit.plugin.Plugin-">disablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#disablePlugin-cn.nukkit.plugin.Plugin-">disablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#disablePlugin-cn.nukkit.plugin.Plugin-">disablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#disablePlugin-cn.nukkit.plugin.Plugin-">disablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
@@ -749,11 +749,11 @@
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#enablePlugin-cn.nukkit.plugin.Plugin-">enablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#enablePlugin-cn.nukkit.plugin.Plugin-">enablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><span class="typeNameLabel">JavaPluginLoader.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/JavaPluginLoader.html#enablePlugin-cn.nukkit.plugin.Plugin-">enablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">PluginManager.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/plugin/PluginManager.html#enablePlugin-cn.nukkit.plugin.Plugin-">enablePlugin</a></span>(<a href="../../../../cn/nukkit/plugin/Plugin.html" title="interface in cn.nukkit.plugin">Plugin</a>&nbsp;plugin)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
@@ -1129,6 +1129,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

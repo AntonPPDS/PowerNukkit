@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>InventoryType (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -188,6 +188,12 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html?i
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#ENDER_CHEST">ENDER_CHEST</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#ENTITY_ARMOR">ENTITY_ARMOR</a></span></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#ENTITY_EQUIPMENT">ENTITY_EQUIPMENT</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#FURNACE">FURNACE</a></span></code>&nbsp;</td>
 </tr>
 <tr class="altColor">
@@ -212,10 +218,16 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html?i
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#SHULKER_BOX">SHULKER_BOX</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#SMOKER">SMOKER</a></span></code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#SMITHING_TABLE">SMITHING_TABLE</a></span></code>&nbsp;</td>
 </tr>
 <tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#SMOKER">SMOKER</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#STONECUTTER">STONECUTTER</a></span></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#TRADING">TRADING</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/InventoryType.html#UI">UI</a></span></code>&nbsp;</td>
@@ -424,7 +436,8 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>CURSOR</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> CURSOR</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> CURSOR</pre>
 </li>
 </ul>
 <a name="SHULKER_BOX">
@@ -451,7 +464,8 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>GRINDSTONE</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> GRINDSTONE</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> GRINDSTONE</pre>
 </li>
 </ul>
 <a name="BLAST_FURNACE">
@@ -460,7 +474,8 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>BLAST_FURNACE</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> BLAST_FURNACE</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> BLAST_FURNACE</pre>
 </li>
 </ul>
 <a name="SMOKER">
@@ -469,7 +484,8 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>SMOKER</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> SMOKER</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> SMOKER</pre>
 </li>
 </ul>
 <a name="STONECUTTER">
@@ -478,7 +494,8 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>STONECUTTER</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> STONECUTTER</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> STONECUTTER</pre>
 </li>
 </ul>
 <a name="CARTOGRAPHY">
@@ -487,7 +504,8 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>CARTOGRAPHY</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> CARTOGRAPHY</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> CARTOGRAPHY</pre>
 </li>
 </ul>
 <a name="BARREL">
@@ -496,7 +514,8 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>BARREL</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> BARREL</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> BARREL</pre>
 </li>
 </ul>
 <a name="CAMPFIRE">
@@ -505,7 +524,30 @@ the order they are declared.</div>
 <ul class="blockList">
 <li class="blockList">
 <h4>CAMPFIRE</h4>
-<pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> CAMPFIRE</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> CAMPFIRE</pre>
+</li>
+</ul>
+<a name="ENTITY_EQUIPMENT">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ENTITY_EQUIPMENT</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> ENTITY_EQUIPMENT</pre>
+</li>
+</ul>
+<a name="ENTITY_ARMOR">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ENTITY_ARMOR</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> ENTITY_ARMOR</pre>
 </li>
 </ul>
 <a name="MINECART_CHEST">
@@ -529,10 +571,32 @@ the order they are declared.</div>
 <a name="OFFHAND">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>OFFHAND</h4>
 <pre>public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> OFFHAND</pre>
+</li>
+</ul>
+<a name="TRADING">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>TRADING</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> TRADING</pre>
+</li>
+</ul>
+<a name="SMITHING_TABLE">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>SMITHING_TABLE</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public static final&nbsp;<a href="../../../cn/nukkit/inventory/InventoryType.html" title="enum in cn.nukkit.inventory">InventoryType</a> SMITHING_TABLE</pre>
 </li>
 </ul>
 </li>
@@ -681,6 +745,6 @@ not permitted.)</div>
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

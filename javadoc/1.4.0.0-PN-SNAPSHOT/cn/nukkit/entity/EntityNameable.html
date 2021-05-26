@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>EntityNameable (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../script.js"></script>
 </head>
@@ -19,8 +19,8 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":18,"i1":6,"i2":6,"i3":18,"i4":6,"i5":6};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],16:["t5","Default Methods"]};
+var methods = {"i0":50,"i1":6,"i2":6,"i3":6,"i4":18,"i5":18,"i6":18,"i7":6,"i8":6,"i9":6};
+var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],16:["t5","Default Methods"],32:["t6","Deprecated Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
 var tableTab = "tableTab";
@@ -102,11 +102,12 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><a href="../../../cn/nukkit/entity/passive/EntityAnimal.html" title="class in cn.nukkit.entity.passive">EntityAnimal</a>, <a href="../../../cn/nukkit/entity/passive/EntityBat.html" title="class in cn.nukkit.entity.passive">EntityBat</a>, <a href="../../../cn/nukkit/entity/passive/EntityBee.html" title="class in cn.nukkit.entity.passive">EntityBee</a>, <a href="../../../cn/nukkit/entity/mob/EntityBlaze.html" title="class in cn.nukkit.entity.mob">EntityBlaze</a>, <a href="../../../cn/nukkit/entity/passive/EntityCat.html" title="class in cn.nukkit.entity.passive">EntityCat</a>, <a href="../../../cn/nukkit/entity/mob/EntityCaveSpider.html" title="class in cn.nukkit.entity.mob">EntityCaveSpider</a>, <a href="../../../cn/nukkit/entity/passive/EntityChicken.html" title="class in cn.nukkit.entity.passive">EntityChicken</a>, <a href="../../../cn/nukkit/entity/passive/EntityCod.html" title="class in cn.nukkit.entity.passive">EntityCod</a>, <a href="../../../cn/nukkit/entity/passive/EntityCow.html" title="class in cn.nukkit.entity.passive">EntityCow</a>, <a href="../../../cn/nukkit/entity/mob/EntityCreeper.html" title="class in cn.nukkit.entity.mob">EntityCreeper</a>, <a href="../../../cn/nukkit/entity/passive/EntityDolphin.html" title="class in cn.nukkit.entity.passive">EntityDolphin</a>, <a href="../../../cn/nukkit/entity/passive/EntityDonkey.html" title="class in cn.nukkit.entity.passive">EntityDonkey</a>, <a href="../../../cn/nukkit/entity/mob/EntityDrowned.html" title="class in cn.nukkit.entity.mob">EntityDrowned</a>, <a href="../../../cn/nukkit/entity/mob/EntityElderGuardian.html" title="class in cn.nukkit.entity.mob">EntityElderGuardian</a>, <a href="../../../cn/nukkit/entity/mob/EntityEnderDragon.html" title="class in cn.nukkit.entity.mob">EntityEnderDragon</a>, <a href="../../../cn/nukkit/entity/mob/EntityEnderman.html" title="class in cn.nukkit.entity.mob">EntityEnderman</a>, <a href="../../../cn/nukkit/entity/mob/EntityEndermite.html" title="class in cn.nukkit.entity.mob">EntityEndermite</a>, <a href="../../../cn/nukkit/entity/mob/EntityEvoker.html" title="class in cn.nukkit.entity.mob">EntityEvoker</a>, <a href="../../../cn/nukkit/entity/passive/EntityFox.html" title="class in cn.nukkit.entity.passive">EntityFox</a>, <a href="../../../cn/nukkit/entity/mob/EntityGhast.html" title="class in cn.nukkit.entity.mob">EntityGhast</a>, <a href="../../../cn/nukkit/entity/mob/EntityGuardian.html" title="class in cn.nukkit.entity.mob">EntityGuardian</a>, <a href="../../../cn/nukkit/entity/mob/EntityHoglin.html" title="class in cn.nukkit.entity.mob">EntityHoglin</a>, <a href="../../../cn/nukkit/entity/passive/EntityHorse.html" title="class in cn.nukkit.entity.passive">EntityHorse</a>, <a href="../../../cn/nukkit/entity/mob/EntityHusk.html" title="class in cn.nukkit.entity.mob">EntityHusk</a>, <a href="../../../cn/nukkit/entity/passive/EntityLlama.html" title="class in cn.nukkit.entity.passive">EntityLlama</a>, <a href="../../../cn/nukkit/entity/mob/EntityMagmaCube.html" title="class in cn.nukkit.entity.mob">EntityMagmaCube</a>, <a href="../../../cn/nukkit/entity/mob/EntityMob.html" title="class in cn.nukkit.entity.mob">EntityMob</a>, <a href="../../../cn/nukkit/entity/passive/EntityMooshroom.html" title="class in cn.nukkit.entity.passive">EntityMooshroom</a>, <a href="../../../cn/nukkit/entity/passive/EntityMule.html" title="class in cn.nukkit.entity.passive">EntityMule</a>, <a href="../../../cn/nukkit/entity/passive/EntityOcelot.html" title="class in cn.nukkit.entity.passive">EntityOcelot</a>, <a href="../../../cn/nukkit/entity/passive/EntityPanda.html" title="class in cn.nukkit.entity.passive">EntityPanda</a>, <a href="../../../cn/nukkit/entity/passive/EntityParrot.html" title="class in cn.nukkit.entity.passive">EntityParrot</a>, <a href="../../../cn/nukkit/entity/mob/EntityPhantom.html" title="class in cn.nukkit.entity.mob">EntityPhantom</a>, <a href="../../../cn/nukkit/entity/passive/EntityPig.html" title="class in cn.nukkit.entity.passive">EntityPig</a>, <a href="../../../cn/nukkit/entity/mob/EntityPiglin.html" title="class in cn.nukkit.entity.mob">EntityPiglin</a>, <a href="../../../cn/nukkit/entity/mob/EntityPiglinBrute.html" title="class in cn.nukkit.entity.mob">EntityPiglinBrute</a>, <a href="../../../cn/nukkit/entity/mob/EntityPillager.html" title="class in cn.nukkit.entity.mob">EntityPillager</a>, <a href="../../../cn/nukkit/entity/passive/EntityPolarBear.html" title="class in cn.nukkit.entity.passive">EntityPolarBear</a>, <a href="../../../cn/nukkit/entity/passive/EntityPufferfish.html" title="class in cn.nukkit.entity.passive">EntityPufferfish</a>, <a href="../../../cn/nukkit/entity/passive/EntityRabbit.html" title="class in cn.nukkit.entity.passive">EntityRabbit</a>, <a href="../../../cn/nukkit/entity/mob/EntityRavager.html" title="class in cn.nukkit.entity.mob">EntityRavager</a>, <a href="../../../cn/nukkit/entity/passive/EntitySalmon.html" title="class in cn.nukkit.entity.passive">EntitySalmon</a>, <a href="../../../cn/nukkit/entity/passive/EntitySheep.html" title="class in cn.nukkit.entity.passive">EntitySheep</a>, <a href="../../../cn/nukkit/entity/mob/EntityShulker.html" title="class in cn.nukkit.entity.mob">EntityShulker</a>, <a href="../../../cn/nukkit/entity/mob/EntitySilverfish.html" title="class in cn.nukkit.entity.mob">EntitySilverfish</a>, <a href="../../../cn/nukkit/entity/mob/EntitySkeleton.html" title="class in cn.nukkit.entity.mob">EntitySkeleton</a>, <a href="../../../cn/nukkit/entity/passive/EntitySkeletonHorse.html" title="class in cn.nukkit.entity.passive">EntitySkeletonHorse</a>, <a href="../../../cn/nukkit/entity/mob/EntitySlime.html" title="class in cn.nukkit.entity.mob">EntitySlime</a>, <a href="../../../cn/nukkit/entity/mob/EntitySnowGolem.html" title="class in cn.nukkit.entity.mob">EntitySnowGolem</a>, <a href="../../../cn/nukkit/entity/mob/EntitySpider.html" title="class in cn.nukkit.entity.mob">EntitySpider</a>, <a href="../../../cn/nukkit/entity/mob/EntityStray.html" title="class in cn.nukkit.entity.mob">EntityStray</a>, <a href="../../../cn/nukkit/entity/passive/EntityStrider.html" title="class in cn.nukkit.entity.passive">EntityStrider</a>, <a href="../../../cn/nukkit/entity/passive/EntityTameable.html" title="class in cn.nukkit.entity.passive">EntityTameable</a>, <a href="../../../cn/nukkit/entity/passive/EntityTropicalFish.html" title="class in cn.nukkit.entity.passive">EntityTropicalFish</a>, <a href="../../../cn/nukkit/entity/passive/EntityTurtle.html" title="class in cn.nukkit.entity.passive">EntityTurtle</a>, <a href="../../../cn/nukkit/entity/mob/EntityVex.html" title="class in cn.nukkit.entity.mob">EntityVex</a>, <a href="../../../cn/nukkit/entity/mob/EntityVindicator.html" title="class in cn.nukkit.entity.mob">EntityVindicator</a>, <a href="../../../cn/nukkit/entity/mob/EntityWitch.html" title="class in cn.nukkit.entity.mob">EntityWitch</a>, <a href="../../../cn/nukkit/entity/mob/EntityWither.html" title="class in cn.nukkit.entity.mob">EntityWither</a>, <a href="../../../cn/nukkit/entity/mob/EntityWitherSkeleton.html" title="class in cn.nukkit.entity.mob">EntityWitherSkeleton</a>, <a href="../../../cn/nukkit/entity/passive/EntityWolf.html" title="class in cn.nukkit.entity.passive">EntityWolf</a>, <a href="../../../cn/nukkit/entity/mob/EntityZoglin.html" title="class in cn.nukkit.entity.mob">EntityZoglin</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombie.html" title="class in cn.nukkit.entity.mob">EntityZombie</a>, <a href="../../../cn/nukkit/entity/passive/EntityZombieHorse.html" title="class in cn.nukkit.entity.passive">EntityZombieHorse</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombiePigman.html" title="class in cn.nukkit.entity.mob">EntityZombiePigman</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombieVillager.html" title="class in cn.nukkit.entity.mob">EntityZombieVillager</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombieVillagerV1.html" title="class in cn.nukkit.entity.mob">EntityZombieVillagerV1</a></dd>
+<dd><a href="../../../cn/nukkit/entity/passive/EntityAnimal.html" title="class in cn.nukkit.entity.passive">EntityAnimal</a>, <a href="../../../cn/nukkit/entity/item/EntityArmorStand.html" title="class in cn.nukkit.entity.item">EntityArmorStand</a>, <a href="../../../cn/nukkit/entity/passive/EntityBat.html" title="class in cn.nukkit.entity.passive">EntityBat</a>, <a href="../../../cn/nukkit/entity/passive/EntityBee.html" title="class in cn.nukkit.entity.passive">EntityBee</a>, <a href="../../../cn/nukkit/entity/mob/EntityBlaze.html" title="class in cn.nukkit.entity.mob">EntityBlaze</a>, <a href="../../../cn/nukkit/entity/passive/EntityCat.html" title="class in cn.nukkit.entity.passive">EntityCat</a>, <a href="../../../cn/nukkit/entity/mob/EntityCaveSpider.html" title="class in cn.nukkit.entity.mob">EntityCaveSpider</a>, <a href="../../../cn/nukkit/entity/passive/EntityChicken.html" title="class in cn.nukkit.entity.passive">EntityChicken</a>, <a href="../../../cn/nukkit/entity/passive/EntityCod.html" title="class in cn.nukkit.entity.passive">EntityCod</a>, <a href="../../../cn/nukkit/entity/passive/EntityCow.html" title="class in cn.nukkit.entity.passive">EntityCow</a>, <a href="../../../cn/nukkit/entity/EntityCreature.html" title="class in cn.nukkit.entity">EntityCreature</a>, <a href="../../../cn/nukkit/entity/mob/EntityCreeper.html" title="class in cn.nukkit.entity.mob">EntityCreeper</a>, <a href="../../../cn/nukkit/entity/passive/EntityDolphin.html" title="class in cn.nukkit.entity.passive">EntityDolphin</a>, <a href="../../../cn/nukkit/entity/passive/EntityDonkey.html" title="class in cn.nukkit.entity.passive">EntityDonkey</a>, <a href="../../../cn/nukkit/entity/mob/EntityDrowned.html" title="class in cn.nukkit.entity.mob">EntityDrowned</a>, <a href="../../../cn/nukkit/entity/mob/EntityElderGuardian.html" title="class in cn.nukkit.entity.mob">EntityElderGuardian</a>, <a href="../../../cn/nukkit/entity/mob/EntityEnderDragon.html" title="class in cn.nukkit.entity.mob">EntityEnderDragon</a>, <a href="../../../cn/nukkit/entity/mob/EntityEnderman.html" title="class in cn.nukkit.entity.mob">EntityEnderman</a>, <a href="../../../cn/nukkit/entity/mob/EntityEndermite.html" title="class in cn.nukkit.entity.mob">EntityEndermite</a>, <a href="../../../cn/nukkit/entity/mob/EntityEvoker.html" title="class in cn.nukkit.entity.mob">EntityEvoker</a>, <a href="../../../cn/nukkit/entity/passive/EntityFox.html" title="class in cn.nukkit.entity.passive">EntityFox</a>, <a href="../../../cn/nukkit/entity/mob/EntityGhast.html" title="class in cn.nukkit.entity.mob">EntityGhast</a>, <a href="../../../cn/nukkit/entity/mob/EntityGuardian.html" title="class in cn.nukkit.entity.mob">EntityGuardian</a>, <a href="../../../cn/nukkit/entity/mob/EntityHoglin.html" title="class in cn.nukkit.entity.mob">EntityHoglin</a>, <a href="../../../cn/nukkit/entity/passive/EntityHorse.html" title="class in cn.nukkit.entity.passive">EntityHorse</a>, <a href="../../../cn/nukkit/entity/EntityHuman.html" title="class in cn.nukkit.entity">EntityHuman</a>, <a href="../../../cn/nukkit/entity/EntityHumanType.html" title="class in cn.nukkit.entity">EntityHumanType</a>, <a href="../../../cn/nukkit/entity/mob/EntityHusk.html" title="class in cn.nukkit.entity.mob">EntityHusk</a>, <a href="../../../cn/nukkit/entity/mob/EntityIronGolem.html" title="class in cn.nukkit.entity.mob">EntityIronGolem</a>, <a href="../../../cn/nukkit/entity/passive/EntityLlama.html" title="class in cn.nukkit.entity.passive">EntityLlama</a>, <a href="../../../cn/nukkit/entity/mob/EntityMagmaCube.html" title="class in cn.nukkit.entity.mob">EntityMagmaCube</a>, <a href="../../../cn/nukkit/entity/mob/EntityMob.html" title="class in cn.nukkit.entity.mob">EntityMob</a>, <a href="../../../cn/nukkit/entity/passive/EntityMooshroom.html" title="class in cn.nukkit.entity.passive">EntityMooshroom</a>, <a href="../../../cn/nukkit/entity/passive/EntityMule.html" title="class in cn.nukkit.entity.passive">EntityMule</a>, <a href="../../../cn/nukkit/entity/passive/EntityOcelot.html" title="class in cn.nukkit.entity.passive">EntityOcelot</a>, <a href="../../../cn/nukkit/entity/passive/EntityPanda.html" title="class in cn.nukkit.entity.passive">EntityPanda</a>, <a href="../../../cn/nukkit/entity/passive/EntityParrot.html" title="class in cn.nukkit.entity.passive">EntityParrot</a>, <a href="../../../cn/nukkit/entity/mob/EntityPhantom.html" title="class in cn.nukkit.entity.mob">EntityPhantom</a>, <a href="../../../cn/nukkit/entity/passive/EntityPig.html" title="class in cn.nukkit.entity.passive">EntityPig</a>, <a href="../../../cn/nukkit/entity/mob/EntityPiglin.html" title="class in cn.nukkit.entity.mob">EntityPiglin</a>, <a href="../../../cn/nukkit/entity/mob/EntityPiglinBrute.html" title="class in cn.nukkit.entity.mob">EntityPiglinBrute</a>, <a href="../../../cn/nukkit/entity/mob/EntityPillager.html" title="class in cn.nukkit.entity.mob">EntityPillager</a>, <a href="../../../cn/nukkit/entity/passive/EntityPolarBear.html" title="class in cn.nukkit.entity.passive">EntityPolarBear</a>, <a href="../../../cn/nukkit/entity/passive/EntityPufferfish.html" title="class in cn.nukkit.entity.passive">EntityPufferfish</a>, <a href="../../../cn/nukkit/entity/passive/EntityRabbit.html" title="class in cn.nukkit.entity.passive">EntityRabbit</a>, <a href="../../../cn/nukkit/entity/mob/EntityRavager.html" title="class in cn.nukkit.entity.mob">EntityRavager</a>, <a href="../../../cn/nukkit/entity/passive/EntitySalmon.html" title="class in cn.nukkit.entity.passive">EntitySalmon</a>, <a href="../../../cn/nukkit/entity/passive/EntitySheep.html" title="class in cn.nukkit.entity.passive">EntitySheep</a>, <a href="../../../cn/nukkit/entity/mob/EntityShulker.html" title="class in cn.nukkit.entity.mob">EntityShulker</a>, <a href="../../../cn/nukkit/entity/mob/EntitySilverfish.html" title="class in cn.nukkit.entity.mob">EntitySilverfish</a>, <a href="../../../cn/nukkit/entity/mob/EntitySkeleton.html" title="class in cn.nukkit.entity.mob">EntitySkeleton</a>, <a href="../../../cn/nukkit/entity/passive/EntitySkeletonHorse.html" title="class in cn.nukkit.entity.passive">EntitySkeletonHorse</a>, <a href="../../../cn/nukkit/entity/mob/EntitySlime.html" title="class in cn.nukkit.entity.mob">EntitySlime</a>, <a href="../../../cn/nukkit/entity/mob/EntitySnowGolem.html" title="class in cn.nukkit.entity.mob">EntitySnowGolem</a>, <a href="../../../cn/nukkit/entity/mob/EntitySpider.html" title="class in cn.nukkit.entity.mob">EntitySpider</a>, <a href="../../../cn/nukkit/entity/passive/EntitySquid.html" title="class in cn.nukkit.entity.passive">EntitySquid</a>, <a href="../../../cn/nukkit/entity/mob/EntityStray.html" title="class in cn.nukkit.entity.mob">EntityStray</a>, <a href="../../../cn/nukkit/entity/passive/EntityStrider.html" title="class in cn.nukkit.entity.passive">EntityStrider</a>, <a href="../../../cn/nukkit/entity/passive/EntityTameable.html" title="class in cn.nukkit.entity.passive">EntityTameable</a>, <a href="../../../cn/nukkit/entity/passive/EntityTropicalFish.html" title="class in cn.nukkit.entity.passive">EntityTropicalFish</a>, <a href="../../../cn/nukkit/entity/passive/EntityTurtle.html" title="class in cn.nukkit.entity.passive">EntityTurtle</a>, <a href="../../../cn/nukkit/entity/mob/EntityVex.html" title="class in cn.nukkit.entity.mob">EntityVex</a>, <a href="../../../cn/nukkit/entity/passive/EntityVillager.html" title="class in cn.nukkit.entity.passive">EntityVillager</a>, <a href="../../../cn/nukkit/entity/passive/EntityVillagerV1.html" title="class in cn.nukkit.entity.passive">EntityVillagerV1</a>, <a href="../../../cn/nukkit/entity/mob/EntityVindicator.html" title="class in cn.nukkit.entity.mob">EntityVindicator</a>, <a href="../../../cn/nukkit/entity/passive/EntityWanderingTrader.html" title="class in cn.nukkit.entity.passive">EntityWanderingTrader</a>, <a href="../../../cn/nukkit/entity/passive/EntityWaterAnimal.html" title="class in cn.nukkit.entity.passive">EntityWaterAnimal</a>, <a href="../../../cn/nukkit/entity/mob/EntityWitch.html" title="class in cn.nukkit.entity.mob">EntityWitch</a>, <a href="../../../cn/nukkit/entity/mob/EntityWither.html" title="class in cn.nukkit.entity.mob">EntityWither</a>, <a href="../../../cn/nukkit/entity/mob/EntityWitherSkeleton.html" title="class in cn.nukkit.entity.mob">EntityWitherSkeleton</a>, <a href="../../../cn/nukkit/entity/passive/EntityWolf.html" title="class in cn.nukkit.entity.passive">EntityWolf</a>, <a href="../../../cn/nukkit/entity/mob/EntityZoglin.html" title="class in cn.nukkit.entity.mob">EntityZoglin</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombie.html" title="class in cn.nukkit.entity.mob">EntityZombie</a>, <a href="../../../cn/nukkit/entity/passive/EntityZombieHorse.html" title="class in cn.nukkit.entity.passive">EntityZombieHorse</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombiePigman.html" title="class in cn.nukkit.entity.mob">EntityZombiePigman</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombieVillager.html" title="class in cn.nukkit.entity.mob">EntityZombieVillager</a>, <a href="../../../cn/nukkit/entity/mob/EntityZombieVillagerV1.html" title="class in cn.nukkit.entity.mob">EntityZombieVillagerV1</a>, <a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a></dd>
 </dl>
 <hr>
 <br>
-<pre>public interface <span class="typeNameLabel">EntityNameable</span></pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+public interface <span class="typeNameLabel">EntityNameable</span></pre>
 <div class="block">An entity which can be named by name tags.</div>
 </li>
 </ul>
@@ -121,14 +122,16 @@ var activeTableTab = "activeTableTab";
 </a>
 <h3>Method Summary</h3>
 <table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t5" class="tableTab"><span><a href="javascript:show(16);">Default Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t5" class="tableTab"><span><a href="javascript:show(16);">Default Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t6" class="tableTab"><span><a href="javascript:show(32);">Deprecated Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
 <tr>
 <th class="colFirst" scope="col">Modifier and Type</th>
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>default boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#applyNameTag-cn.nukkit.item.Item-">applyNameTag</a></span>(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#applyNameTag-cn.nukkit.item.Item-">applyNameTag</a></span>(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item)</code>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
+</td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
@@ -139,18 +142,37 @@ var activeTableTab = "activeTableTab";
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#isNameTagVisible--">isNameTagVisible</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i3" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#isPersistent--">isPersistent</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>default boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">onInteract</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
           <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
           <a href="../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</code>&nbsp;</td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>default boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#playerApplyNameTag-cn.nukkit.Player-cn.nukkit.item.Item-">playerApplyNameTag</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+                  <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item)</code>&nbsp;</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>default boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#playerApplyNameTag-cn.nukkit.Player-cn.nukkit.item.Item-boolean-">playerApplyNameTag</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+                  <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+                  boolean&nbsp;consume)</code>&nbsp;</td>
+</tr>
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#setNameTag-java.lang.String-">setNameTag</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;nameTag)</code>&nbsp;</td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#setNameTagVisible-boolean-">setNameTagVisible</a></span>(boolean&nbsp;visible)</code>&nbsp;</td>
+</tr>
+<tr id="i9" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/entity/EntityNameable.html#setPersistent-boolean-">setPersistent</a></span>(boolean&nbsp;persistent)</code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -173,7 +195,8 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>setNameTag</h4>
-<pre>void&nbsp;setNameTag(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;nameTag)</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>(<a href="../../../cn/nukkit/api/PowerNukkitOnly.html#value--">value</a>="The Entity implementations are not PowerNukkit only")
+void&nbsp;setNameTag(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;nameTag)</pre>
 </li>
 </ul>
 <a name="getNameTag--">
@@ -182,7 +205,8 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>getNameTag</h4>
-<pre><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getNameTag()</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>(<a href="../../../cn/nukkit/api/PowerNukkitOnly.html#value--">value</a>="The Entity implementations are not PowerNukkit only")
+<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getNameTag()</pre>
 </li>
 </ul>
 <a name="setNameTagVisible-boolean-">
@@ -191,7 +215,8 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>setNameTagVisible</h4>
-<pre>void&nbsp;setNameTagVisible(boolean&nbsp;visible)</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>(<a href="../../../cn/nukkit/api/PowerNukkitOnly.html#value--">value</a>="The Entity implementations are not PowerNukkit only")
+void&nbsp;setNameTagVisible(boolean&nbsp;visible)</pre>
 </li>
 </ul>
 <a name="isNameTagVisible--">
@@ -200,7 +225,30 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>isNameTagVisible</h4>
-<pre>boolean&nbsp;isNameTagVisible()</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>(<a href="../../../cn/nukkit/api/PowerNukkitOnly.html#value--">value</a>="The Entity implementations are not PowerNukkit only")
+boolean&nbsp;isNameTagVisible()</pre>
+</li>
+</ul>
+<a name="isPersistent--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isPersistent</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+boolean&nbsp;isPersistent()</pre>
+</li>
+</ul>
+<a name="setPersistent-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setPersistent</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+void&nbsp;setPersistent(boolean&nbsp;persistent)</pre>
 </li>
 </ul>
 <a name="onInteract-cn.nukkit.Player-cn.nukkit.item.Item-cn.nukkit.math.Vector3-">
@@ -209,9 +257,39 @@ var activeTableTab = "activeTableTab";
 <ul class="blockList">
 <li class="blockList">
 <h4>onInteract</h4>
-<pre>default&nbsp;boolean&nbsp;onInteract(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
-                           <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
-                           <a href="../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>(<a href="../../../cn/nukkit/api/PowerNukkitOnly.html#value--">value</a>="The Entity implementations are not PowerNukkit only")
+default&nbsp;boolean&nbsp;onInteract(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+                                                                                                         <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+                                                                                                         <a href="../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;clickedPos)</pre>
+</li>
+</ul>
+<a name="playerApplyNameTag-cn.nukkit.Player-cn.nukkit.item.Item-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>playerApplyNameTag</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.3.2.0-PN")
+default&nbsp;boolean&nbsp;playerApplyNameTag(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                                                                <a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+                                                                                <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                                                                <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item)</pre>
+</li>
+</ul>
+<a name="playerApplyNameTag-cn.nukkit.Player-cn.nukkit.item.Item-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>playerApplyNameTag</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+default&nbsp;boolean&nbsp;playerApplyNameTag(<a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                                                                <a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;player,
+                                                                                <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+                                                                                <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item,
+                                                                                boolean&nbsp;consume)</pre>
 </li>
 </ul>
 <a name="applyNameTag-cn.nukkit.item.Item-">
@@ -220,7 +298,14 @@ var activeTableTab = "activeTableTab";
 <ul class="blockListLast">
 <li class="blockList">
 <h4>applyNameTag</h4>
-<pre>default&nbsp;boolean&nbsp;applyNameTag(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item)</pre>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html?is-external=true" title="class or interface in java.lang">@Deprecated</a>
+ <a href="../../../cn/nukkit/api/DeprecationDetails.html" title="annotation in cn.nukkit.api">@DeprecationDetails</a>(<a href="../../../cn/nukkit/api/DeprecationDetails.html#since--">since</a>="1.3.2.0-PN",
+                    <a href="../../../cn/nukkit/api/DeprecationDetails.html#reason--">reason</a>="New implementation needs a player instance, using this method may allow players to name unexpected entities",
+                    <a href="../../../cn/nukkit/api/DeprecationDetails.html#by--">by</a>="PowerNukkit",
+                    <a href="../../../cn/nukkit/api/DeprecationDetails.html#replaceWith--">replaceWith</a>="playerApplyNameTag(Player, Item)")
+default&nbsp;boolean&nbsp;applyNameTag(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;item)</pre>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
 </li>
 </ul>
 </li>
@@ -292,6 +377,6 @@ var activeTableTab = "activeTableTab";
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Uses of Class cn.nukkit.item.enchantment.Enchantment (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../../script.js"></script>
 </head>
@@ -96,18 +96,22 @@
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><a href="#cn.nukkit.item.enchantment.crossbow">cn.nukkit.item.enchantment.crossbow</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><a href="#cn.nukkit.item.enchantment.damage">cn.nukkit.item.enchantment.damage</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#cn.nukkit.item.enchantment.loot">cn.nukkit.item.enchantment.loot</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><a href="#cn.nukkit.item.enchantment.protection">cn.nukkit.item.enchantment.protection</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><a href="#cn.nukkit.item.enchantment.trident">cn.nukkit.item.enchantment.trident</a></td>
 <td class="colLast">&nbsp;</td>
 </tr>
@@ -258,15 +262,21 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#get-int-">get</a></span>(int&nbsp;id)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#get-int-">get</a></span>(int&nbsp;id)</code>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#getEnchantment-int-">getEnchantment</a></span>(int&nbsp;id)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#getEnchantment-int-">getEnchantment</a></span>(int&nbsp;id)</code>
+<div class="block">The same as <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#get-int-"><code>get(int)</code></a> but returns a safe copy of the enchantment.</div>
+</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>[]</code></td>
-<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#getEnchantments--">getEnchantments</a></span>()</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#getEnchantments--">getEnchantments</a></span>()</code>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>[]</code></td>
@@ -274,12 +284,31 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a></code></td>
-<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#setLevel-int-">setLevel</a></span>(int&nbsp;level)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#setLevel-int-">setLevel</a></span>(int&nbsp;level)</code>
+<div class="block">Changes the level of this enchantment.</div>
+</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a></code></td>
 <td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#setLevel-int-boolean-">setLevel</a></span>(int&nbsp;level,
-        boolean&nbsp;safe)</code>&nbsp;</td>
+        boolean&nbsp;safe)</code>
+<div class="block">Changes the level of this enchantment.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../cn/nukkit/item/enchantment/package-summary.html">cn.nukkit.item.enchantment</a> that return types with arguments of type <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html?is-external=true" title="class or interface in java.util">Collection</a>&lt;<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&gt;</code></td>
+<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#getRegisteredEnchantments--">getRegisteredEnchantments</a></span>()</code>
+<div class="block">Gets a collection with a safe copy of all enchantments that are currently registered.</div>
+</td>
 </tr>
 </tbody>
 </table>
@@ -291,20 +320,29 @@
 </tr>
 <tbody>
 <tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentFrostWalker.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/EnchantmentFrostWalker.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colFirst"><code>protected boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>
+<div class="block">Checks if this enchantment can be applied to an item that have the give enchantment without doing reverse check.</div>
+</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentMending.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/EnchantmentMending.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colFirst"><code>protected boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentFrostWalker.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/EnchantmentFrostWalker.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentMending.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/EnchantmentMending.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentSilkTouch.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/EnchantmentSilkTouch.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentSilkTouch.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/EnchantmentSilkTouch.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">Enchantment.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>
+<div class="block">Returns true if and only if this enchantment is compatible with the other and 
+ the other is also compatible with this enchantment.</div>
+</td>
 </tr>
 </tbody>
 </table>
@@ -363,8 +401,55 @@
 </tr>
 <tbody>
 <tr class="altColor">
+<td class="colFirst"><code>protected boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentBowInfinity.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/bow/EnchantmentBowInfinity.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="cn.nukkit.item.enchantment.crossbow">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a> in <a href="../../../../../cn/nukkit/item/enchantment/crossbow/package-summary.html">cn.nukkit.item.enchantment.crossbow</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing subclasses, and an explanation">
+<caption><span>Subclasses of <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a> in <a href="../../../../../cn/nukkit/item/enchantment/crossbow/package-summary.html">cn.nukkit.item.enchantment.crossbow</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/crossbow/EnchantmentCrossbow.html" title="class in cn.nukkit.item.enchantment.crossbow">EnchantmentCrossbow</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/crossbow/EnchantmentCrossbowMultishot.html" title="class in cn.nukkit.item.enchantment.crossbow">EnchantmentCrossbowMultishot</a></span></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/crossbow/EnchantmentCrossbowPiercing.html" title="class in cn.nukkit.item.enchantment.crossbow">EnchantmentCrossbowPiercing</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/crossbow/EnchantmentCrossbowQuickCharge.html" title="class in cn.nukkit.item.enchantment.crossbow">EnchantmentCrossbowQuickCharge</a></span></code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../cn/nukkit/item/enchantment/crossbow/package-summary.html">cn.nukkit.item.enchantment.crossbow</a> with parameters of type <a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentBowInfinity.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/bow/EnchantmentBowInfinity.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentCrossbowMultishot.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/crossbow/EnchantmentCrossbowMultishot.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentCrossbowPiercing.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/crossbow/EnchantmentCrossbowPiercing.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -407,7 +492,7 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentDamage.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/damage/EnchantmentDamage.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentDamage.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/damage/EnchantmentDamage.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -450,7 +535,7 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentLoot.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/loot/EnchantmentLoot.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentLoot.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/loot/EnchantmentLoot.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -501,7 +586,7 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentProtection.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/protection/EnchantmentProtection.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentProtection.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/protection/EnchantmentProtection.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -548,7 +633,7 @@
 <tbody>
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">EnchantmentTridentRiptide.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/trident/EnchantmentTridentRiptide.html#isCompatibleWith-cn.nukkit.item.enchantment.Enchantment-">isCompatibleWith</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EnchantmentTridentRiptide.</span><code><span class="memberNameLink"><a href="../../../../../cn/nukkit/item/enchantment/trident/EnchantmentTridentRiptide.html#checkCompatibility-cn.nukkit.item.enchantment.Enchantment-">checkCompatibility</a></span>(<a href="../../../../../cn/nukkit/item/enchantment/Enchantment.html" title="class in cn.nukkit.item.enchantment">Enchantment</a>&nbsp;enchantment)</code>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -604,6 +689,6 @@
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>

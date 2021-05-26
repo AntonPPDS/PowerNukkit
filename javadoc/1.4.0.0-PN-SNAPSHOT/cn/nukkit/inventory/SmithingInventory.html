@@ -1,0 +1,569 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SmithingInventory (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
+<meta name="date" content="2021-05-26">
+<link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
+<script type="text/javascript" src="../../../script.js"></script>
+</head>
+<body>
+<script type="text/javascript"><!--
+    try {
+        if (location.href.indexOf('is-external=true') == -1) {
+            parent.document.title="SmithingInventory (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)";
+        }
+    }
+    catch(err) {
+    }
+//-->
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10};
+var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
+var altColor = "altColor";
+var rowColor = "rowColor";
+var tableTab = "tableTab";
+var activeTableTab = "activeTableTab";
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar.top">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.top.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/SmithingInventory.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../index-all.html">Index</a></li>
+<li><a href="../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../cn/nukkit/inventory/SmeltingRecipe.html" title="interface in cn.nukkit.inventory"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../cn/nukkit/inventory/SmithingRecipe.html" title="class in cn.nukkit.inventory"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../index.html?cn/nukkit/inventory/SmithingInventory.html" target="_top">Frames</a></li>
+<li><a href="SmithingInventory.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div>
+<a name="skip.navbar.top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">cn.nukkit.inventory</div>
+<h2 title="Class SmithingInventory" class="title">Class SmithingInventory</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class in cn.nukkit.inventory">cn.nukkit.inventory.BaseInventory</a></li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../cn/nukkit/inventory/PlayerUIComponent.html" title="class in cn.nukkit.inventory">cn.nukkit.inventory.PlayerUIComponent</a></li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html" title="class in cn.nukkit.inventory">cn.nukkit.inventory.FakeBlockUIComponent</a></li>
+<li>
+<ul class="inheritance">
+<li>cn.nukkit.inventory.SmithingInventory</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd><a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></dd>
+</dl>
+<hr>
+<br>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public class <span class="typeNameLabel">SmithingInventory</span>
+extends <a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html" title="class in cn.nukkit.inventory">FakeBlockUIComponent</a></pre>
+<dl>
+<dt><span class="simpleTagLabel">Since:</span></dt>
+<dd>2020-09-28</dd>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>joserobjr</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#SMITHING_EQUIPMENT_UI_SLOT">SMITHING_EQUIPMENT_UI_SLOT</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>static int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#SMITHING_INGREDIENT_UI_SLOT">SMITHING_INGREDIENT_UI_SLOT</a></span></code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="fields.inherited.from.class.cn.nukkit.inventory.PlayerUIComponent">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/PlayerUIComponent.html" title="class in cn.nukkit.inventory">PlayerUIComponent</a></h3>
+<code><a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#CREATED_ITEM_OUTPUT_UI_SLOT">CREATED_ITEM_OUTPUT_UI_SLOT</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#playerUI">playerUI</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="fields.inherited.from.class.cn.nukkit.inventory.BaseInventory">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class in cn.nukkit.inventory">BaseInventory</a></h3>
+<code><a href="../../../cn/nukkit/inventory/BaseInventory.html#holder">holder</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#maxStackSize">maxStackSize</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#name">name</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#slots">slots</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#title">title</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#viewers">viewers</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="fields.inherited.from.class.cn.nukkit.inventory.Inventory">
+<!--   -->
+</a>
+<h3>Fields inherited from interface&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></h3>
+<code><a href="../../../cn/nukkit/inventory/Inventory.html#MAX_STACK">MAX_STACK</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#SmithingInventory-cn.nukkit.inventory.PlayerUIInventory-cn.nukkit.level.Position-">SmithingInventory</a></span>(<a href="../../../cn/nukkit/inventory/PlayerUIInventory.html" title="class in cn.nukkit.inventory">PlayerUIInventory</a>&nbsp;playerUI,
+                 <a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position)</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code><a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#getEquipment--">getEquipment</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code><a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#getIngredient--">getIngredient</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code><a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#getResult--">getResult</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code><a href="../../../cn/nukkit/inventory/SmithingRecipe.html" title="class in cn.nukkit.inventory">SmithingRecipe</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#matchRecipe--">matchRecipe</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#onClose-cn.nukkit.Player-">onClose</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</code>&nbsp;</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#onOpen-cn.nukkit.Player-">onOpen</a></span>(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</code>&nbsp;</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#onSlotChange-int-cn.nukkit.item.Item-boolean-">onSlotChange</a></span>(int&nbsp;index,
+            <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;before,
+            boolean&nbsp;send)</code>&nbsp;</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#setEquipment-cn.nukkit.item.Item-">setEquipment</a></span>(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;equipment)</code>&nbsp;</td>
+</tr>
+<tr id="i8" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#setIngredient-cn.nukkit.item.Item-">setIngredient</a></span>(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;ingredient)</code>&nbsp;</td>
+</tr>
+<tr id="i9" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../cn/nukkit/inventory/SmithingInventory.html#updateResult--">updateResult</a></span>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.cn.nukkit.inventory.FakeBlockUIComponent">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html" title="class in cn.nukkit.inventory">FakeBlockUIComponent</a></h3>
+<code><a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html#close-cn.nukkit.Player-">close</a>, <a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html#getHolder--">getHolder</a>, <a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html#getType--">getType</a>, <a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html#open-cn.nukkit.Player-">open</a>, <a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html#sendContents-cn.nukkit.Player...-">sendContents</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.cn.nukkit.inventory.PlayerUIComponent">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/PlayerUIComponent.html" title="class in cn.nukkit.inventory">PlayerUIComponent</a></h3>
+<code><a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#clear-int-boolean-">clear</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#getContents--">getContents</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#getItem-int-">getItem</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#getMaxStackSize--">getMaxStackSize</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#getSize--">getSize</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#getTitle--">getTitle</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#getViewers--">getViewers</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#sendSlot-int-cn.nukkit.Player...-">sendSlot</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#setItem-int-cn.nukkit.item.Item-boolean-">setItem</a>, <a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#setMaxStackSize-int-">setMaxStackSize</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.cn.nukkit.inventory.BaseInventory">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/BaseInventory.html" title="class in cn.nukkit.inventory">BaseInventory</a></h3>
+<code><a href="../../../cn/nukkit/inventory/BaseInventory.html#addItem-cn.nukkit.item.Item...-">addItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#addListener-cn.nukkit.inventory.InventoryListener-">addListener</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#all-cn.nukkit.item.Item-">all</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#canAddItem-cn.nukkit.item.Item-">canAddItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#clearAll--">clearAll</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#contains-cn.nukkit.item.Item-">contains</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#decreaseCount-int-">decreaseCount</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#first-cn.nukkit.item.Item-boolean-">first</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#firstEmpty-cn.nukkit.item.Item-">firstEmpty</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getFreeSpace-cn.nukkit.item.Item-">getFreeSpace</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#getName--">getName</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#isEmpty--">isEmpty</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#isFull--">isFull</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#remove-cn.nukkit.item.Item-">remove</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#removeItem-cn.nukkit.item.Item...-">removeItem</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#removeListener-cn.nukkit.inventory.InventoryListener-">removeListener</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendContents-java.util.Collection-">sendContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendContents-cn.nukkit.Player-">sendContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendSlot-int-java.util.Collection-">sendSlot</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#sendSlot-int-cn.nukkit.Player-">sendSlot</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setContents-java.util.Map-">setContents</a>, <a href="../../../cn/nukkit/inventory/BaseInventory.html#setSize-int-">setSize</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#clone--" title="class or interface in java.lang">clone</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.lang">equals</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#finalize--" title="class or interface in java.lang">finalize</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#getClass--" title="class or interface in java.lang">getClass</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#hashCode--" title="class or interface in java.lang">hashCode</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#notify--" title="class or interface in java.lang">notify</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#notifyAll--" title="class or interface in java.lang">notifyAll</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#toString--" title="class or interface in java.lang">toString</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#wait--" title="class or interface in java.lang">wait</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#wait-long-" title="class or interface in java.lang">wait</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html?is-external=true#wait-long-int-" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.cn.nukkit.inventory.Inventory">
+<!--   -->
+</a>
+<h3>Methods inherited from interface&nbsp;cn.nukkit.inventory.<a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></h3>
+<code><a href="../../../cn/nukkit/inventory/Inventory.html#clear-int-">clear</a>, <a href="../../../cn/nukkit/inventory/Inventory.html#first-cn.nukkit.item.Item-">first</a>, <a href="../../../cn/nukkit/inventory/Inventory.html#setItem-int-cn.nukkit.item.Item-">setItem</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="SMITHING_EQUIPMENT_UI_SLOT">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>SMITHING_EQUIPMENT_UI_SLOT</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public static final&nbsp;int SMITHING_EQUIPMENT_UI_SLOT</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#cn.nukkit.inventory.SmithingInventory.SMITHING_EQUIPMENT_UI_SLOT">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="SMITHING_INGREDIENT_UI_SLOT">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>SMITHING_INGREDIENT_UI_SLOT</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public static final&nbsp;int SMITHING_INGREDIENT_UI_SLOT</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#cn.nukkit.inventory.SmithingInventory.SMITHING_INGREDIENT_UI_SLOT">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="SmithingInventory-cn.nukkit.inventory.PlayerUIInventory-cn.nukkit.level.Position-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>SmithingInventory</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;SmithingInventory(<a href="../../../cn/nukkit/inventory/PlayerUIInventory.html" title="class in cn.nukkit.inventory">PlayerUIInventory</a>&nbsp;playerUI,
+                                                                      <a href="../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position)</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="matchRecipe--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>matchRecipe</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+ <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nullable.html?is-external=true" title="class or interface in javax.annotation">@Nullable</a>
+public&nbsp;<a href="../../../cn/nukkit/inventory/SmithingRecipe.html" title="class in cn.nukkit.inventory">SmithingRecipe</a>&nbsp;matchRecipe()</pre>
+</li>
+</ul>
+<a name="onSlotChange-int-cn.nukkit.item.Item-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>onSlotChange</h4>
+<pre>public&nbsp;void&nbsp;onSlotChange(int&nbsp;index,
+                         <a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;before,
+                         boolean&nbsp;send)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/Inventory.html#onSlotChange-int-cn.nukkit.item.Item-boolean-">onSlotChange</a></code>&nbsp;in interface&nbsp;<code><a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></code></dd>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/PlayerUIComponent.html#onSlotChange-int-cn.nukkit.item.Item-boolean-">onSlotChange</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/inventory/PlayerUIComponent.html" title="class in cn.nukkit.inventory">PlayerUIComponent</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="updateResult--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>updateResult</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;updateResult()</pre>
+</li>
+</ul>
+<a name="getResult--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getResult</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+ <a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/Nonnull.html?is-external=true" title="class or interface in javax.annotation">@Nonnull</a>
+public&nbsp;<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;getResult()</pre>
+</li>
+</ul>
+<a name="getEquipment--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getEquipment</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;getEquipment()</pre>
+</li>
+</ul>
+<a name="setEquipment-cn.nukkit.item.Item-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setEquipment</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setEquipment(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;equipment)</pre>
+</li>
+</ul>
+<a name="getIngredient--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getIngredient</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;getIngredient()</pre>
+</li>
+</ul>
+<a name="setIngredient-cn.nukkit.item.Item-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setIngredient</h4>
+<pre><a href="../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setIngredient(<a href="../../../cn/nukkit/item/Item.html" title="class in cn.nukkit.item">Item</a>&nbsp;ingredient)</pre>
+</li>
+</ul>
+<a name="onOpen-cn.nukkit.Player-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>onOpen</h4>
+<pre>public&nbsp;void&nbsp;onOpen(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/Inventory.html#onOpen-cn.nukkit.Player-">onOpen</a></code>&nbsp;in interface&nbsp;<code><a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></code></dd>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html#onOpen-cn.nukkit.Player-">onOpen</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html" title="class in cn.nukkit.inventory">FakeBlockUIComponent</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="onClose-cn.nukkit.Player-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>onClose</h4>
+<pre>public&nbsp;void&nbsp;onClose(<a href="../../../cn/nukkit/Player.html" title="class in cn.nukkit">Player</a>&nbsp;who)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/Inventory.html#onClose-cn.nukkit.Player-">onClose</a></code>&nbsp;in interface&nbsp;<code><a href="../../../cn/nukkit/inventory/Inventory.html" title="interface in cn.nukkit.inventory">Inventory</a></code></dd>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html#onClose-cn.nukkit.Player-">onClose</a></code>&nbsp;in class&nbsp;<code><a href="../../../cn/nukkit/inventory/FakeBlockUIComponent.html" title="class in cn.nukkit.inventory">FakeBlockUIComponent</a></code></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar.bottom">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.bottom.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/SmithingInventory.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../index-all.html">Index</a></li>
+<li><a href="../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../cn/nukkit/inventory/SmeltingRecipe.html" title="interface in cn.nukkit.inventory"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../cn/nukkit/inventory/SmithingRecipe.html" title="class in cn.nukkit.inventory"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../index.html?cn/nukkit/inventory/SmithingInventory.html" target="_top">Frames</a></li>
+<li><a href="SmithingInventory.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field.summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field.detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div>
+<a name="skip.navbar.bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+</body>
+</html>

@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>EntityExplodeEvent (PowerNukkit 1.4.0.0-PN-SNAPSHOT API)</title>
-<meta name="date" content="2020-12-22">
+<meta name="date" content="2021-05-26">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -19,7 +19,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":9,"i2":10,"i3":10,"i4":10,"i5":10};
+var methods = {"i0":10,"i1":9,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10};
 var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -154,10 +154,14 @@ implements <a href="../../../../cn/nukkit/event/Cancellable.html" title="interfa
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#blocks">blocks</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><code>protected <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#ignitions">ignitions</a></span></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code>protected <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#position">position</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>protected double</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#yield">yield</a></span></code>&nbsp;</td>
 </tr>
@@ -219,18 +223,26 @@ implements <a href="../../../../cn/nukkit/event/Cancellable.html" title="interfa
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#getHandlers--">getHandlers</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
+<td class="colFirst"><code><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#getIgnitions--">getIgnitions</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#getPosition--">getPosition</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>double</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#getYield--">getYield</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#setBlockList-java.util.List-">setBlockList</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt;&nbsp;blocks)</code>&nbsp;</td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#setIgnitions-java.util.Set-">setIgnitions</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt;&nbsp;ignitions)</code>&nbsp;</td>
+</tr>
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntityExplodeEvent.html#setYield-double-">setYield</a></span>(double&nbsp;yield)</code>&nbsp;</td>
 </tr>
@@ -293,6 +305,15 @@ implements <a href="../../../../cn/nukkit/event/Cancellable.html" title="interfa
 <li class="blockList">
 <h4>blocks</h4>
 <pre>protected&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt; blocks</pre>
+</li>
+</ul>
+<a name="ignitions">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ignitions</h4>
+<pre>protected&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt; ignitions</pre>
 </li>
 </ul>
 <a name="yield">
@@ -380,10 +401,32 @@ implements <a href="../../../../cn/nukkit/event/Cancellable.html" title="interfa
 <a name="setYield-double-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>setYield</h4>
 <pre>public&nbsp;void&nbsp;setYield(double&nbsp;yield)</pre>
+</li>
+</ul>
+<a name="getIgnitions--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getIgnitions</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt;&nbsp;getIgnitions()</pre>
+</li>
+</ul>
+<a name="setIgnitions-java.util.Set-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>setIgnitions</h4>
+<pre><a href="../../../../cn/nukkit/api/PowerNukkitOnly.html" title="annotation in cn.nukkit.api">@PowerNukkitOnly</a>
+ <a href="../../../../cn/nukkit/api/Since.html" title="annotation in cn.nukkit.api">@Since</a>(<a href="../../../../cn/nukkit/api/Since.html#value--">value</a>="1.4.0.0-PN")
+public&nbsp;void&nbsp;setIgnitions(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Set.html?is-external=true" title="class or interface in java.util">Set</a>&lt;<a href="../../../../cn/nukkit/block/Block.html" title="class in cn.nukkit.block">Block</a>&gt;&nbsp;ignitions)</pre>
 </li>
 </ul>
 </li>
@@ -455,6 +498,6 @@ implements <a href="../../../../cn/nukkit/event/Cancellable.html" title="interfa
 <!--   -->
 </a></div>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-<p class="legalCopy"><small>Copyright &#169; 2020 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
+<p class="legalCopy"><small>Copyright &#169; 2020&#x2013;2021 <a href="https://powernukkit.org">PowerNukkit</a>. All rights reserved.</small></p>
 </body>
 </html>
